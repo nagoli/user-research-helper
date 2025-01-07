@@ -88,7 +88,8 @@ Handles the initial processing of interview recordings in 3 steps :
 
 
 1 - Transcribes each audio files into text, saving them in the “transcripts/raw” directory.
-For exemple in the demo project 5 transcripts are generated :
+
+*For exemple in the demo project 5 transcripts are generated :*
 ![Transcripts in demo exemple](assets/transcripts.png)
 
 
