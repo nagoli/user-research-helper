@@ -122,46 +122,46 @@ Copy also those segments in the transcript_analysis_report_quotes.xlsx file crea
 
 ```bash
 python process_analysis.py your/project/folder
-```
+``` 
 
 Performs a deeper analysis of the transcribed interviews in 3 steps:
 
-	1.	Segment-Based Analysis
-	-	Use the file analysis/transcript_analysis_report.xlsx as input.
-	-	Generate segment-based analysis and save the results in the analysis/segments folder.
-    
-    *For exemple in the demo project the segment analysis files generated has this format :*
-    ![Per Segment analysis in demo exemple](assets/per_segment_analysis.png)
+1.	Segment-Based Analysis
+-	Use the file analysis/transcript_analysis_report.xlsx as input.
+-	Generate segment-based analysis and save the results in the analysis/segments folder.
+
+*For exemple in the demo project the segment analysis files generated has this format :*
+![Per Segment analysis in demo exemple](assets/per_segment_analysis.png)
 
 
-	2.	Cross-Interview Insights
-	-	Use the segment-based analysis from the analysis/segments folder.
-	-	Generate cross-interview insights and save the results in analysis/results_report.xlsx.
+2.	Cross-Interview Insights
+-	Use the segment-based analysis from the analysis/segments folder.
+-	Generate cross-interview insights and save the results in analysis/results_report.xlsx.
 
-    *For exemple in the demo project the cross-interview analysis file generated has this format :*
-    ![Cross Interview insights in demo exemple](assets/cross_interview_analysis.png)
+*For exemple in the demo project the cross-interview analysis file generated has this format :*
+![Cross Interview insights in demo exemple](assets/cross_interview_analysis.png)
 
-	3.	Comprehensive Report per Question
-	-	Combine quotes from analysis/transcript_analysis_report_quotes.xlsx with insights from analysis/results_report.xlsx.
-	-	Create a comprehensive per-question report in MS Word format and save it as analysis/analysis_report.docx.
+3.	Comprehensive Report per Question
+-	Combine quotes from analysis/transcript_analysis_report_quotes.xlsx with insights from analysis/results_report.xlsx.
+-	Create a comprehensive per-question report in MS Word format and save it as analysis/analysis_report.docx.
 
-    *For exemple in the demo project the final report generated has this format :*
-    ![Final report in demo exemple](assets/final_report.png)
+*For exemple in the demo project the final report generated has this format :*
+![Final report in demo exemple](assets/final_report.png)
 
 The configuration file `config.json` is used to control the behavior of the script. You can modify it to change the default behavior of the script and cancel some steps. 
 
-```bash
-python process_analysis.py --root_dir data
-```
+
 
 ## Project Structure
 
 - `src/` - Main source code directory
-- `data/` - Default directory for project data
-  - `demo/` - Config files exemples
+- `demo/` - Example project with sample files and configuration
+- `data_skeleton/` - Template directory structure for new projects
+- `assets/` - Documentation images and resources
 
 ## Dependencies
 
+- pandas - For data processing
 - outlines - For structured text processing
 - openai - For AI-powered analysis
 - assemblyai - For audio transcription
@@ -169,19 +169,6 @@ python process_analysis.py --root_dir data
 - transformers - For text processing
 - openpyxl - For Excel report generation
 - python-docx - For Word document handling
-
-## Configuration
-
-The project uses a configuration system that can be customized through:
-- Environment variables (via `.env` file)
-- Runtime configuration in the code
-- Project-specific settings in `config.json`
-
-Key configuration options include:
-- Language settings
-- Processing flags
-- Output directory structure
-- Debug levels
 
 ## License
 
@@ -199,4 +186,3 @@ For more details, see the [GNU GPL v3.0](https://www.gnu.org/licenses/gpl-3.0.en
 ## Contributing
 
 We welcome contributions from the community! If you're interested in improving User Research Helper, please feel free to fork the repository, make your changes, and submit a pull request. For major changes, please open an issue first to discuss what you would like to change. 
-
