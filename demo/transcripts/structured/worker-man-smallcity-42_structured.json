@@ -1,0 +1,47 @@
+{
+  "Q0": {
+    "question": "How many cups of coffee do you drink per day?",
+    "analysis": {
+      "found": true,
+      "answer": "The interviewee drinks usually three cups of coffee per day: one at home before leaving for work, one during the morning break, and one after lunch if feeling tired.",
+      "confidence": "high",
+      "quote": "Usually three cups."
+    }
+  },
+  "Q1": {
+    "question": "Do you prefer making your coffee at home or buying it outside? Why?",
+    "analysis": {
+      "found": true,
+      "answer": "The interviewee prefers making the first cup of coffee at home to save money and then buys coffee from the factory's vending machine or a nearby cafe because it's convenient.",
+      "confidence": "high",
+      "quote": "I make my first cup at home to save money, and then I buy one at the factory's vending machine or the nearby cafe because it's convenient."
+    }
+  },
+  "Q2": {
+    "question": "What are the most important factors for you when choosing coffee (e.g., taste, price, origin, etc.)?",
+    "analysis": {
+      "found": true,
+      "answer": "The most important factors for the interviewee when choosing coffee are price and convenience. They like a decent taste but are not willing to pay a fortune for it. Quick and affordable options make them happy.",
+      "confidence": "high",
+      "quote": "Price and convenience are the biggest factors."
+    }
+  },
+  "Q3": {
+    "question": "Do you think drinking coffee impacts your energy or productivity? If so, how?",
+    "analysis": {
+      "found": true,
+      "answer": "The interviewee believes that drinking coffee absolutely impacts their energy and productivity. They work long shifts and coffee helps them stay alert. Around midday, they feel their energy drop, so a coffee break helps them push through the rest of the shift.",
+      "confidence": "high",
+      "quote": "Absolutely. I work long shifts and coffee helps me stay alert."
+    }
+  },
+  "Q4": {
+    "question": "Do you have any special anecdote or memory related to your coffee consumption?",
+    "analysis": {
+      "found": true,
+      "answer": "The interviewee shared a special memory of a coffee tasting event organized by their department. They sampled different blends and discovered a preference for slightly stronger coffee than they previously thought, which was a nice change from the usual vending machine coffee.",
+      "confidence": "high",
+      "quote": "One time, our department organized a coffee tasting event which was really fun."
+    }
+  }
+}

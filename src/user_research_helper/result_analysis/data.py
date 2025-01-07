@@ -196,7 +196,7 @@ class ResultAnalysis(BaseModel):
     question_id: str = Field(..., description="ID of the question being analyzed")
     question_text: str = Field(..., description="Text of the question being analyzed")
     analysis: str = Field(..., description="Analysis summary across all segments")
-    quotes: Optional[str] = Field(..., description="Quotes postfixed by segments name enclosed in square brackets and parenthesis")
+    quotes: Optional[str] = Field(default="", description="Quotes postfixed by segments name enclosed in square brackets and parenthesis")
     confidence: Optional[Confidence] = Field(None, description="Confidence in the summary")
     
     @field_validator('confidence')

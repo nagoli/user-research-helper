@@ -11,23 +11,23 @@
 
 
     "// language definition": null,
-    "language_id": "fr",
-    "language": "french",
+    "language_id": "en",
+    "language": "english",
 
     "// llm operations context": null,
     
-    "llm_common_context" : "Explain here the interview purpose and context.",
+    "llm_common_context" : "This interview deals with the habits of users while drinking coffee.",
 
-    "llm_answer_extraction_context": "Leave blank or specify the particular aspects of your interviews that are important for the answer extraction process. For example, prefix parts of the answers with the tool type, such as [toolA], [toolB], or [toolC].",
+    "llm_answer_extraction_context": "",
     
-    "llm_answer_analysis_context": "Leave blank or specify the particular aspects of your interviews that are important for the individual answer analysis process. For exemple, do a specific synthesis for each tool [toolA] [toolB] and [toolC]. Prefix each synthesis with [toolA] [toolB] and [toolC]. ",
+    "llm_answer_analysis_context": "",
 
-    "llm_result_analysis_context": "Leave blank or specify the particular aspects of your interviews that are important for the global analysis of all the answer for each question. For exemple, do a specific analysis for each tool [toolA] [toolB] and [toolC]. Prefix each analysis with [toolA] [toolB] and [toolC]. Also specify the name of the segments in square brackets ([segmentA] [segmentB] and [segmentC]) if the segments are concerned by the analysis .",
+    "llm_result_analysis_context": "",
 
     "// transcript word_boost": null,
     "word_boost": [
-        "add all words specific to your interviews",
-        "in the language of the interviews"
+        "coffee",
+        "chocolate"
     ],
 
     "// debug": null,

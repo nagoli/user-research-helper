@@ -1,7 +1,8 @@
-outlines
-openai
-assemblyai
-python-dotenv
-transformers
-openpyxl
-python-docx
+pandas==2.2.3
+outlines==0.1.11
+openai==1.59.3
+assemblyai==0.36.0
+python-dotenv==1.0.1
+transformers==4.47.1
+openpyxl==3.1.5
+python-docx==1.1.2

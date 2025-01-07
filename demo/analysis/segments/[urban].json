@@ -1,0 +1,60 @@
+{
+  "segment_name": "[urban]",
+  "answers": {
+    "3": {
+      "segment_name": "[urban]",
+      "question_id": "3",
+      "answer_summary": "The urban segment shows a common pattern of consuming two to three cups of coffee per day. A typical routine includes having coffee at home before leaving for work, during the morning break, and sometimes after lunch or mid-afternoon. The tendency to drink coffee seems to be associated with specific times of the day, particularly in the morning and early afternoon. Notably, one interviewee mentioned drinking coffee specifically if feeling tired after lunch, indicating a functional use of coffee for energy. Overall, the key insight is that coffee consumption in this segment is habitual and often aligned with daily routines and energy needs.",
+      "rough_answers": [
+        "The interviewee drinks usually three cups of coffee per day: one at home before leaving for work, one during the morning break, and one after lunch if feeling tired.",
+        "The interviewee usually drinks two cups of coffee per day.",
+        "The person interviewed usually drinks three cups of coffee per day: one right after waking up, one mid-morning, and one mid-afternoon."
+      ],
+      "summary_confidence": "high"
+    },
+    "4": {
+      "segment_name": "[urban]",
+      "question_id": "4",
+      "answer_summary": "Among urban users, there is a common pattern of starting the day with a homemade cup of coffee, primarily for cost-saving reasons. However, convenience plays a significant role, as many opt to purchase coffee outside later in the day, often due to busy schedules or as a treat. A notable perspective is the integration of coffee buying with daily routines, such as grabbing a coffee on the way to work or during lunch breaks.",
+      "rough_answers": [
+        "The interviewee prefers making the first cup of coffee at home to save money and then buys coffee from the factory's vending machine or a nearby cafe because it's convenient.",
+        "The interviewee prefers buying coffee outside most of the time because they are always on the go with early classes, making it easier to grab one on campus or at a nearby cafe.",
+        "The person interviewed prefers making their first cup of coffee at home as part of their morning routine but often buys a latte on the way to the office or during lunch because it's convenient and feels like a treat."
+      ],
+      "summary_confidence": "high"
+    },
+    "5": {
+      "segment_name": "[urban]",
+      "question_id": "5",
+      "answer_summary": "In the urban segment, the most common factors influencing coffee choice are taste and convenience. Price is also frequently mentioned, especially among those with budget constraints, such as students. However, there is a notable emphasis on taste, with a preference for coffee that is not too bitter or watery. A unique perspective is the willingness to support local roasters, highlighting a preference for quality over price when the coffee is particularly good.",
+      "rough_answers": [
+        "The most important factors for the interviewee when choosing coffee are price and convenience. They like a decent taste but are not willing to pay a fortune for it. Quick and affordable options make them happy.",
+        "The most important factors for the interviewee when choosing coffee are taste and convenience. Price is also important due to their student budget, but they prioritize taste, avoiding coffee that is too bitter or watery.",
+        "The most important factors when choosing coffee are taste and quality. The person also likes to support local roasters when possible, and price is less of a concern as long as the coffee is good."
+      ],
+      "summary_confidence": "high"
+    },
+    "6": {
+      "segment_name": "[urban]",
+      "question_id": "6",
+      "answer_summary": "The responses from the urban segment consistently indicate that drinking coffee significantly impacts energy and productivity. Common themes include coffee's role in maintaining alertness during long shifts or meetings, and its necessity for staying focused, particularly in demanding situations like exams or executive duties. The ritualistic aspect of coffee consumption is also noted. A unique perspective is the emphasis on coffee as both a ritual and a necessity for an executive with a hectic schedule. Overall, the key insight is that coffee is perceived as essential for sustaining energy and enhancing productivity in various professional and academic contexts.",
+      "rough_answers": [
+        "The interviewee believes that drinking coffee absolutely impacts their energy and productivity. They work long shifts and coffee helps them stay alert. Around midday, they feel their energy drop, so a coffee break helps them push through the rest of the shift.",
+        "The interviewee believes that drinking coffee definitely impacts their energy and productivity. If they skip their morning coffee, they feel groggy in class. Coffee helps them focus and stay alert, especially when cramming for exams.",
+        "The person interviewed believes that drinking coffee absolutely impacts their energy and productivity. As an executive with a hectic schedule, coffee keeps them sharp, helps them stay focused during long meetings, and is both a ritual and a necessity."
+      ],
+      "summary_confidence": "high"
+    },
+    "7": {
+      "segment_name": "[urban]",
+      "question_id": "7",
+      "answer_summary": "The responses from the urban segment reveal a common theme of coffee being linked to significant personal and professional experiences. Two respondents associate coffee with memorable events: one with a coffee tasting event that refined their taste preferences, and another with a pivotal business meeting that led to a major client acquisition. A tendency towards coffee consumption during high-pressure situations is noted, as highlighted by a respondent who relied on coffee to stay awake during finals, resulting in academic success. Unique perspectives include the discovery of a preference for stronger coffee and the transformative potential of casual coffee meetings in professional settings. Key insights suggest that coffee plays a role in both personal enjoyment and professional networking, and it is often associated with positive outcomes in challenging situations.",
+      "rough_answers": [
+        "The interviewee shared a special memory of a coffee tasting event organized by their department. They sampled different blends and discovered a preference for slightly stronger coffee than they previously thought, which was a nice change from the usual vending machine coffee.",
+        "The interviewee shared a memorable and stressful anecdote about pulling an all-nighter during finals, where they drank four cups of coffee in a row. Although they didn't sleep at all, they managed to ace the test the next morning.",
+        "The person interviewed recalls an early career memory where a casual coffee meeting led to landing a major client deal, turning a simple invitation to grab a coffee into a pivotal business relationship."
+      ],
+      "summary_confidence": "high"
+    }
+  }
+}

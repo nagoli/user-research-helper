@@ -1,0 +1,47 @@
+{
+  "Q0": {
+    "question": "How many cups of coffee do you drink per day?",
+    "analysis": {
+      "found": true,
+      "answer": "The interviewee drinks just one or two cups of coffee a day, usually having one cup with breakfast and sometimes one in the afternoon if they have company.",
+      "confidence": "high",
+      "quote": "Just one or two cups a day."
+    }
+  },
+  "Q1": {
+    "question": "Do you prefer making your coffee at home or buying it outside? Why?",
+    "analysis": {
+      "found": true,
+      "answer": "The interviewee prefers making coffee at home because they enjoy the ritual of brewing a pot in their kitchen. They only buy coffee outside when visiting family in the city.",
+      "confidence": "high",
+      "quote": "I enjoy the ritual of brewing a pot in my kitchen."
+    }
+  },
+  "Q2": {
+    "question": "What are the most important factors for you when choosing coffee (e.g., taste, price, origin, etc.)?",
+    "analysis": {
+      "found": true,
+      "answer": "The most important factors for the interviewee when choosing coffee are a mild taste and price, as they are on a fixed income. They don't need anything fancy, just something that tastes good.",
+      "confidence": "high",
+      "quote": "I like a mild taste, nothing too strong."
+    }
+  },
+  "Q3": {
+    "question": "Do you think drinking coffee impacts your energy or productivity? If so, how?",
+    "analysis": {
+      "found": true,
+      "answer": "The interviewee thinks coffee perks them up in the morning but they don't rely on it too much. It's more about enjoying a warm drink to start the day.",
+      "confidence": "high",
+      "quote": "I think it perks me up in the morning, but I don't rely on it too much."
+    }
+  },
+  "Q4": {
+    "question": "Do you have any special anecdote or memory related to your coffee consumption?",
+    "analysis": {
+      "found": true,
+      "answer": "The interviewee has a fond memory of sitting on the porch every morning with their husband, sipping coffee and watching the sun rise. It's a simple pleasure that brings back fond memories.",
+      "confidence": "high",
+      "quote": "sipping coffee and watching the sun rise"
+    }
+  }
+}

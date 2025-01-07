@@ -1,0 +1,60 @@
+{
+  "segment_name": "[male]",
+  "answers": {
+    "3": {
+      "segment_name": "[male]",
+      "question_id": "3",
+      "answer_summary": "The male segment typically consumes two to three cups of coffee daily. A common pattern is having one cup in the morning and an additional cup either during a morning break or after lunch, especially if feeling tired. Notably, one individual occasionally drinks a third cup in the afternoon, highlighting a tendency to adjust consumption based on energy levels.",
+      "rough_answers": [
+        "The interviewee drinks about two cups of coffee each morning and sometimes a third cup in the afternoon if feeling tired.",
+        "The interviewee drinks usually three cups of coffee per day: one at home before leaving for work, one during the morning break, and one after lunch if feeling tired.",
+        "The interviewee usually drinks two cups of coffee per day."
+      ],
+      "summary_confidence": "high"
+    },
+    "4": {
+      "segment_name": "[male]",
+      "question_id": "4",
+      "answer_summary": "The common theme among the male segment is a preference for making coffee at home due to practical reasons such as cost-saving and routine enjoyment. However, convenience plays a significant role in the decision-making process, as some prefer buying coffee outside when it suits their schedule, especially when they are on the go. A notable unique perspective is the combination approach of making the first cup at home and buying additional coffee outside for convenience. Key insights include the importance of convenience and routine in coffee consumption habits.",
+      "rough_answers": [
+        "The interviewee prefers making coffee at home because they live far from the city, making it impractical to buy it outside. They also enjoy the routine of brewing their own coffee.",
+        "The interviewee prefers making the first cup of coffee at home to save money and then buys coffee from the factory's vending machine or a nearby cafe because it's convenient.",
+        "The interviewee prefers buying coffee outside most of the time because they are always on the go with early classes, making it easier to grab one on campus or at a nearby cafe."
+      ],
+      "summary_confidence": "high"
+    },
+    "5": {
+      "segment_name": "[male]",
+      "question_id": "5",
+      "answer_summary": "In the male segment, the most common factors influencing coffee choice are taste, price, and convenience. Taste is frequently mentioned, with a preference for good quality and specific origins, such as local roasters. Price is a significant consideration, especially for those on a budget, though some are willing to pay more for superior taste. Convenience also plays a role, with a preference for quick and affordable options. A notable unique perspective is the emphasis on avoiding coffee that is too bitter or watery.",
+      "rough_answers": [
+        "The most important factors for the interviewee when choosing coffee are taste and origin. They prefer to know where the beans come from and sometimes get them from a local roaster. Price is also a consideration, but they are willing to pay more if the coffee is really good.",
+        "The most important factors for the interviewee when choosing coffee are price and convenience. They like a decent taste but are not willing to pay a fortune for it. Quick and affordable options make them happy.",
+        "The most important factors for the interviewee when choosing coffee are taste and convenience. Price is also important due to their student budget, but they prioritize taste, avoiding coffee that is too bitter or watery."
+      ],
+      "summary_confidence": "high"
+    },
+    "6": {
+      "segment_name": "[male]",
+      "question_id": "6",
+      "answer_summary": "The common theme among the male interviewees is that drinking coffee positively impacts their energy and productivity. All respondents agree that coffee helps them stay alert and focused, whether for physically demanding work, long shifts, or academic activities. A notable pattern is the reliance on coffee to combat midday energy drops or morning grogginess. A unique perspective is the caution against consuming too much coffee to avoid jitteriness. Key insights include the role of coffee in enhancing alertness and focus, particularly in demanding or extended work situations.",
+      "rough_answers": [
+        "The interviewee believes that drinking coffee helps them wake up in the morning and provides a nice boost for the physically demanding work of farming. However, they try not to drink too much to avoid getting jittery.",
+        "The interviewee believes that drinking coffee absolutely impacts their energy and productivity. They work long shifts and coffee helps them stay alert. Around midday, they feel their energy drop, so a coffee break helps them push through the rest of the shift.",
+        "The interviewee believes that drinking coffee definitely impacts their energy and productivity. If they skip their morning coffee, they feel groggy in class. Coffee helps them focus and stay alert, especially when cramming for exams."
+      ],
+      "summary_confidence": "high"
+    },
+    "7": {
+      "segment_name": "[male]",
+      "question_id": "7",
+      "answer_summary": "The responses from the male segment reveal a common theme of coffee being associated with significant personal memories and experiences. A recurring pattern is the emotional connection to coffee, whether it's through family traditions, such as a grandfather making coffee, or social events like a coffee tasting that led to a discovery of new preferences. Additionally, coffee is linked to academic experiences, as illustrated by the stressful yet memorable all-nighter during finals. Notably, each anecdote highlights a unique aspect of coffee's role in personal and social contexts, from familial bonds to academic achievements. Key insights include the emotional and experiential significance of coffee in users' lives, influencing both personal preferences and memorable life events.",
+      "rough_answers": [
+        "The interviewee has a special memory of their grandfather making coffee in a big old percolator every morning, which filled the farmhouse with an amazing smell. This memory is one of the reasons they love coffee.",
+        "The interviewee shared a special memory of a coffee tasting event organized by their department. They sampled different blends and discovered a preference for slightly stronger coffee than they previously thought, which was a nice change from the usual vending machine coffee.",
+        "The interviewee shared a memorable and stressful anecdote about pulling an all-nighter during finals, where they drank four cups of coffee in a row. Although they didn't sleep at all, they managed to ace the test the next morning."
+      ],
+      "summary_confidence": "high"
+    }
+  }
+}

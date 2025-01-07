@@ -1,1 +1,9 @@
-what is your age 
+How many cups of coffee do you drink per day?
+
+Do you prefer making your coffee at home or buying it outside? Why?
+
+What are the most important factors for you when choosing coffee (e.g., taste, price, origin, etc.)?
+
+Do you think drinking coffee impacts your energy or productivity? If so, how?
+
+Do you have any special anecdote or memory related to your coffee consumption?

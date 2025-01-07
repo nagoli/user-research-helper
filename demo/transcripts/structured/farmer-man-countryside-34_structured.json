@@ -1,0 +1,47 @@
+{
+  "Q0": {
+    "question": "How many cups of coffee do you drink per day?",
+    "analysis": {
+      "found": true,
+      "answer": "The interviewee drinks about two cups of coffee each morning and sometimes a third cup in the afternoon if feeling tired.",
+      "confidence": "high",
+      "quote": "I have about two cups each morning before heading out to the fields. Sometimes I'll have a third cup in the afternoon if I'm feeling tired."
+    }
+  },
+  "Q1": {
+    "question": "Do you prefer making your coffee at home or buying it outside? Why?",
+    "analysis": {
+      "found": true,
+      "answer": "The interviewee prefers making coffee at home because they live far from the city, making it impractical to buy it outside. They also enjoy the routine of brewing their own coffee.",
+      "confidence": "high",
+      "quote": "I always make my coffee at home. I live quite far from the city, so it's not very practical to buy it outside. Plus, I like the routine of brewing my own."
+    }
+  },
+  "Q2": {
+    "question": "What are the most important factors for you when choosing coffee (e.g., taste, price, origin, etc.)?",
+    "analysis": {
+      "found": true,
+      "answer": "The most important factors for the interviewee when choosing coffee are taste and origin. They prefer to know where the beans come from and sometimes get them from a local roaster. Price is also a consideration, but they are willing to pay more if the coffee is really good.",
+      "confidence": "high",
+      "quote": "I care about both taste and origin. I prefer to know where the beans come from."
+    }
+  },
+  "Q3": {
+    "question": "Do you think drinking coffee impacts your energy or productivity? If so, how?",
+    "analysis": {
+      "found": true,
+      "answer": "The interviewee believes that drinking coffee helps them wake up in the morning and provides a nice boost for the physically demanding work of farming. However, they try not to drink too much to avoid getting jittery.",
+      "confidence": "high",
+      "quote": "It does help me wake up in the morning. Farming can be physically demanding, so that little boost is nice."
+    }
+  },
+  "Q4": {
+    "question": "Do you have any special anecdote or memory related to your coffee consumption?",
+    "analysis": {
+      "found": true,
+      "answer": "The interviewee has a special memory of their grandfather making coffee in a big old percolator every morning, which filled the farmhouse with an amazing smell. This memory is one of the reasons they love coffee.",
+      "confidence": "high",
+      "quote": "My grandfather used to make coffee in a big old percolator every morning, and the whole farmhouse smelled amazing."
+    }
+  }
+}

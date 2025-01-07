@@ -1,0 +1,30 @@
+
+Speaker A [160.00 - 2568.00]:
+    How many cups of coffee do you drink per day?
+
+Speaker B [2704.00 - 10136.00]:
+    Just one or two cups a day. I usually have one cup with breakfast and sometimes one in the afternoon if I have company.
+
+Speaker A [10288.00 - 14328.00]:
+    Do you prefer making your coffee at home or buying it outside? Why?
+
+Speaker B [14464.00 - 22776.00]:
+    I usually make it at home. I enjoy the ritual of brewing a pot in my kitchen. I only buy coffee outside when I'm visiting family in the city.
+
+Speaker A [22928.00 - 30508.00]:
+    What are the most important factors for you when choosing coffee? E. G. Taste, price, origin, etc.
+
+Speaker B [30604.00 - 41420.00]:
+    I like a mild taste, nothing too strong. I also keep an eye on price since I'm on a fixed income. But I don't need anything fancy, just something that tastes good.
+
+Speaker A [41540.00 - 46428.00]:
+    Do you think drinking coffee impacts your energy or productivity? If so, how?
+
+Speaker B [46564.00 - 54522.00]:
+    I think it perks me up in the morning, but I don't rely on it too much. It's more about enjoying a warm drink to start the day.
+
+Speaker A [54636.00 - 59022.00]:
+    Do you have any special anecdote or memory related to your coffee consumption?
+
+Speaker B [59166.00 - 68990.00]:
+    Many years ago, my husband and I would sit on the porch every morning, sipping coffee and watching the sun rise. It's a simple pleasure that always brings back fond memories.

@@ -1,0 +1,249 @@
+{
+  "questions": [
+    {
+      "id": "3",
+      "text": "How many cups of coffee do you drink per day?",
+      "column_index": 2
+    },
+    {
+      "id": "4",
+      "text": "Do you prefer making your coffee at home or buying it outside? Why?",
+      "column_index": 3
+    },
+    {
+      "id": "5",
+      "text": "What are the most important factors for you when choosing coffee (e.g., taste, price, origin, etc.)?",
+      "column_index": 4
+    },
+    {
+      "id": "6",
+      "text": "Do you think drinking coffee impacts your energy or productivity? If so, how?",
+      "column_index": 5
+    },
+    {
+      "id": "7",
+      "text": "Do you have any special anecdote or memory related to your coffee consumption?",
+      "column_index": 6
+    }
+  ],
+  "segments": {
+    "[male]": {
+      "3": {
+        "segment_name": "[male]",
+        "question_id": "3",
+        "answer_summary": "The interviewee usually drinks two cups of coffee per day.",
+        "rough_answers": [
+          "The interviewee drinks about two cups of coffee each morning and sometimes a third cup in the afternoon if feeling tired.",
+          "The interviewee drinks usually three cups of coffee per day: one at home before leaving for work, one during the morning break, and one after lunch if feeling tired.",
+          "The interviewee usually drinks two cups of coffee per day."
+        ],
+        "summary_confidence": null
+      },
+      "4": {
+        "segment_name": "[male]",
+        "question_id": "4",
+        "answer_summary": "The interviewee prefers buying coffee outside most of the time because they are always on the go with early classes, making it easier to grab one on campus or at a nearby cafe.",
+        "rough_answers": [
+          "The interviewee prefers making coffee at home because they live far from the city, making it impractical to buy it outside. They also enjoy the routine of brewing their own coffee.",
+          "The interviewee prefers making the first cup of coffee at home to save money and then buys coffee from the factory's vending machine or a nearby cafe because it's convenient.",
+          "The interviewee prefers buying coffee outside most of the time because they are always on the go with early classes, making it easier to grab one on campus or at a nearby cafe."
+        ],
+        "summary_confidence": null
+      },
+      "5": {
+        "segment_name": "[male]",
+        "question_id": "5",
+        "answer_summary": "The most important factors for the interviewee when choosing coffee are taste and convenience. Price is also important due to their student budget, but they prioritize taste, avoiding coffee that is too bitter or watery.",
+        "rough_answers": [
+          "The most important factors for the interviewee when choosing coffee are taste and origin. They prefer to know where the beans come from and sometimes get them from a local roaster. Price is also a consideration, but they are willing to pay more if the coffee is really good.",
+          "The most important factors for the interviewee when choosing coffee are price and convenience. They like a decent taste but are not willing to pay a fortune for it. Quick and affordable options make them happy.",
+          "The most important factors for the interviewee when choosing coffee are taste and convenience. Price is also important due to their student budget, but they prioritize taste, avoiding coffee that is too bitter or watery."
+        ],
+        "summary_confidence": null
+      },
+      "6": {
+        "segment_name": "[male]",
+        "question_id": "6",
+        "answer_summary": "The interviewee believes that drinking coffee definitely impacts their energy and productivity. If they skip their morning coffee, they feel groggy in class. Coffee helps them focus and stay alert, especially when cramming for exams.",
+        "rough_answers": [
+          "The interviewee believes that drinking coffee helps them wake up in the morning and provides a nice boost for the physically demanding work of farming. However, they try not to drink too much to avoid getting jittery.",
+          "The interviewee believes that drinking coffee absolutely impacts their energy and productivity. They work long shifts and coffee helps them stay alert. Around midday, they feel their energy drop, so a coffee break helps them push through the rest of the shift.",
+          "The interviewee believes that drinking coffee definitely impacts their energy and productivity. If they skip their morning coffee, they feel groggy in class. Coffee helps them focus and stay alert, especially when cramming for exams."
+        ],
+        "summary_confidence": null
+      },
+      "7": {
+        "segment_name": "[male]",
+        "question_id": "7",
+        "answer_summary": "The interviewee shared a memorable and stressful anecdote about pulling an all-nighter during finals, where they drank four cups of coffee in a row. Although they didn't sleep at all, they managed to ace the test the next morning.",
+        "rough_answers": [
+          "The interviewee has a special memory of their grandfather making coffee in a big old percolator every morning, which filled the farmhouse with an amazing smell. This memory is one of the reasons they love coffee.",
+          "The interviewee shared a special memory of a coffee tasting event organized by their department. They sampled different blends and discovered a preference for slightly stronger coffee than they previously thought, which was a nice change from the usual vending machine coffee.",
+          "The interviewee shared a memorable and stressful anecdote about pulling an all-nighter during finals, where they drank four cups of coffee in a row. Although they didn't sleep at all, they managed to ace the test the next morning."
+        ],
+        "summary_confidence": null
+      }
+    },
+    "[rural]": {
+      "3": {
+        "segment_name": "[rural]",
+        "question_id": "3",
+        "answer_summary": "The interviewee drinks just one or two cups of coffee a day, usually having one cup with breakfast and sometimes one in the afternoon if they have company.",
+        "rough_answers": [
+          "The interviewee drinks about two cups of coffee each morning and sometimes a third cup in the afternoon if feeling tired.",
+          "The interviewee drinks just one or two cups of coffee a day, usually having one cup with breakfast and sometimes one in the afternoon if they have company."
+        ],
+        "summary_confidence": null
+      },
+      "4": {
+        "segment_name": "[rural]",
+        "question_id": "4",
+        "answer_summary": "The interviewee prefers making coffee at home because they enjoy the ritual of brewing a pot in their kitchen. They only buy coffee outside when visiting family in the city.",
+        "rough_answers": [
+          "The interviewee prefers making coffee at home because they live far from the city, making it impractical to buy it outside. They also enjoy the routine of brewing their own coffee.",
+          "The interviewee prefers making coffee at home because they enjoy the ritual of brewing a pot in their kitchen. They only buy coffee outside when visiting family in the city."
+        ],
+        "summary_confidence": null
+      },
+      "5": {
+        "segment_name": "[rural]",
+        "question_id": "5",
+        "answer_summary": "The most important factors for the interviewee when choosing coffee are a mild taste and price, as they are on a fixed income. They don't need anything fancy, just something that tastes good.",
+        "rough_answers": [
+          "The most important factors for the interviewee when choosing coffee are taste and origin. They prefer to know where the beans come from and sometimes get them from a local roaster. Price is also a consideration, but they are willing to pay more if the coffee is really good.",
+          "The most important factors for the interviewee when choosing coffee are a mild taste and price, as they are on a fixed income. They don't need anything fancy, just something that tastes good."
+        ],
+        "summary_confidence": null
+      },
+      "6": {
+        "segment_name": "[rural]",
+        "question_id": "6",
+        "answer_summary": "The interviewee thinks coffee perks them up in the morning but they don't rely on it too much. It's more about enjoying a warm drink to start the day.",
+        "rough_answers": [
+          "The interviewee believes that drinking coffee helps them wake up in the morning and provides a nice boost for the physically demanding work of farming. However, they try not to drink too much to avoid getting jittery.",
+          "The interviewee thinks coffee perks them up in the morning but they don't rely on it too much. It's more about enjoying a warm drink to start the day."
+        ],
+        "summary_confidence": null
+      },
+      "7": {
+        "segment_name": "[rural]",
+        "question_id": "7",
+        "answer_summary": "The interviewee has a fond memory of sitting on the porch every morning with their husband, sipping coffee and watching the sun rise. It's a simple pleasure that brings back fond memories.",
+        "rough_answers": [
+          "The interviewee has a special memory of their grandfather making coffee in a big old percolator every morning, which filled the farmhouse with an amazing smell. This memory is one of the reasons they love coffee.",
+          "The interviewee has a fond memory of sitting on the porch every morning with their husband, sipping coffee and watching the sun rise. It's a simple pleasure that brings back fond memories."
+        ],
+        "summary_confidence": null
+      }
+    },
+    "[urban]": {
+      "3": {
+        "segment_name": "[urban]",
+        "question_id": "3",
+        "answer_summary": "The person interviewed usually drinks three cups of coffee per day: one right after waking up, one mid-morning, and one mid-afternoon.",
+        "rough_answers": [
+          "The interviewee drinks usually three cups of coffee per day: one at home before leaving for work, one during the morning break, and one after lunch if feeling tired.",
+          "The interviewee usually drinks two cups of coffee per day.",
+          "The person interviewed usually drinks three cups of coffee per day: one right after waking up, one mid-morning, and one mid-afternoon."
+        ],
+        "summary_confidence": null
+      },
+      "4": {
+        "segment_name": "[urban]",
+        "question_id": "4",
+        "answer_summary": "The person interviewed prefers making their first cup of coffee at home as part of their morning routine but often buys a latte on the way to the office or during lunch because it's convenient and feels like a treat.",
+        "rough_answers": [
+          "The interviewee prefers making the first cup of coffee at home to save money and then buys coffee from the factory's vending machine or a nearby cafe because it's convenient.",
+          "The interviewee prefers buying coffee outside most of the time because they are always on the go with early classes, making it easier to grab one on campus or at a nearby cafe.",
+          "The person interviewed prefers making their first cup of coffee at home as part of their morning routine but often buys a latte on the way to the office or during lunch because it's convenient and feels like a treat."
+        ],
+        "summary_confidence": null
+      },
+      "5": {
+        "segment_name": "[urban]",
+        "question_id": "5",
+        "answer_summary": "The most important factors when choosing coffee are taste and quality. The person also likes to support local roasters when possible, and price is less of a concern as long as the coffee is good.",
+        "rough_answers": [
+          "The most important factors for the interviewee when choosing coffee are price and convenience. They like a decent taste but are not willing to pay a fortune for it. Quick and affordable options make them happy.",
+          "The most important factors for the interviewee when choosing coffee are taste and convenience. Price is also important due to their student budget, but they prioritize taste, avoiding coffee that is too bitter or watery.",
+          "The most important factors when choosing coffee are taste and quality. The person also likes to support local roasters when possible, and price is less of a concern as long as the coffee is good."
+        ],
+        "summary_confidence": null
+      },
+      "6": {
+        "segment_name": "[urban]",
+        "question_id": "6",
+        "answer_summary": "The person interviewed believes that drinking coffee absolutely impacts their energy and productivity. As an executive with a hectic schedule, coffee keeps them sharp, helps them stay focused during long meetings, and is both a ritual and a necessity.",
+        "rough_answers": [
+          "The interviewee believes that drinking coffee absolutely impacts their energy and productivity. They work long shifts and coffee helps them stay alert. Around midday, they feel their energy drop, so a coffee break helps them push through the rest of the shift.",
+          "The interviewee believes that drinking coffee definitely impacts their energy and productivity. If they skip their morning coffee, they feel groggy in class. Coffee helps them focus and stay alert, especially when cramming for exams.",
+          "The person interviewed believes that drinking coffee absolutely impacts their energy and productivity. As an executive with a hectic schedule, coffee keeps them sharp, helps them stay focused during long meetings, and is both a ritual and a necessity."
+        ],
+        "summary_confidence": null
+      },
+      "7": {
+        "segment_name": "[urban]",
+        "question_id": "7",
+        "answer_summary": "The person interviewed recalls an early career memory where a casual coffee meeting led to landing a major client deal, turning a simple invitation to grab a coffee into a pivotal business relationship.",
+        "rough_answers": [
+          "The interviewee shared a special memory of a coffee tasting event organized by their department. They sampled different blends and discovered a preference for slightly stronger coffee than they previously thought, which was a nice change from the usual vending machine coffee.",
+          "The interviewee shared a memorable and stressful anecdote about pulling an all-nighter during finals, where they drank four cups of coffee in a row. Although they didn't sleep at all, they managed to ace the test the next morning.",
+          "The person interviewed recalls an early career memory where a casual coffee meeting led to landing a major client deal, turning a simple invitation to grab a coffee into a pivotal business relationship."
+        ],
+        "summary_confidence": null
+      }
+    },
+    "[female]": {
+      "3": {
+        "segment_name": "[female]",
+        "question_id": "3",
+        "answer_summary": "The person interviewed usually drinks three cups of coffee per day: one right after waking up, one mid-morning, and one mid-afternoon.",
+        "rough_answers": [
+          "The interviewee drinks just one or two cups of coffee a day, usually having one cup with breakfast and sometimes one in the afternoon if they have company.",
+          "The person interviewed usually drinks three cups of coffee per day: one right after waking up, one mid-morning, and one mid-afternoon."
+        ],
+        "summary_confidence": null
+      },
+      "4": {
+        "segment_name": "[female]",
+        "question_id": "4",
+        "answer_summary": "The person interviewed prefers making their first cup of coffee at home as part of their morning routine but often buys a latte on the way to the office or during lunch because it's convenient and feels like a treat.",
+        "rough_answers": [
+          "The interviewee prefers making coffee at home because they enjoy the ritual of brewing a pot in their kitchen. They only buy coffee outside when visiting family in the city.",
+          "The person interviewed prefers making their first cup of coffee at home as part of their morning routine but often buys a latte on the way to the office or during lunch because it's convenient and feels like a treat."
+        ],
+        "summary_confidence": null
+      },
+      "5": {
+        "segment_name": "[female]",
+        "question_id": "5",
+        "answer_summary": "The most important factors when choosing coffee are taste and quality. The person also likes to support local roasters when possible, and price is less of a concern as long as the coffee is good.",
+        "rough_answers": [
+          "The most important factors for the interviewee when choosing coffee are a mild taste and price, as they are on a fixed income. They don't need anything fancy, just something that tastes good.",
+          "The most important factors when choosing coffee are taste and quality. The person also likes to support local roasters when possible, and price is less of a concern as long as the coffee is good."
+        ],
+        "summary_confidence": null
+      },
+      "6": {
+        "segment_name": "[female]",
+        "question_id": "6",
+        "answer_summary": "The person interviewed believes that drinking coffee absolutely impacts their energy and productivity. As an executive with a hectic schedule, coffee keeps them sharp, helps them stay focused during long meetings, and is both a ritual and a necessity.",
+        "rough_answers": [
+          "The interviewee thinks coffee perks them up in the morning but they don't rely on it too much. It's more about enjoying a warm drink to start the day.",
+          "The person interviewed believes that drinking coffee absolutely impacts their energy and productivity. As an executive with a hectic schedule, coffee keeps them sharp, helps them stay focused during long meetings, and is both a ritual and a necessity."
+        ],
+        "summary_confidence": null
+      },
+      "7": {
+        "segment_name": "[female]",
+        "question_id": "7",
+        "answer_summary": "The person interviewed recalls an early career memory where a casual coffee meeting led to landing a major client deal, turning a simple invitation to grab a coffee into a pivotal business relationship.",
+        "rough_answers": [
+          "The interviewee has a fond memory of sitting on the porch every morning with their husband, sipping coffee and watching the sun rise. It's a simple pleasure that brings back fond memories.",
+          "The person interviewed recalls an early career memory where a casual coffee meeting led to landing a major client deal, turning a simple invitation to grab a coffee into a pivotal business relationship."
+        ],
+        "summary_confidence": null
+      }
+    }
+  }
+}

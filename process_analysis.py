@@ -1,3 +1,6 @@
+from dotenv import load_dotenv
+load_dotenv()
+
 from user_research_helper.campaign.config import config
 from typing import List, Tuple
 import shutil
@@ -14,8 +17,7 @@ from user_research_helper.result_analysis.result_analysis import ResultAnalysis
 from docx import Document
 from docx.shared import Pt
 from docx.enum.text import WD_ALIGN_PARAGRAPH
-from dotenv import load_dotenv
-load_dotenv()
+
 
 
 
@@ -214,8 +216,7 @@ if __name__ == "__main__":
     from typing import List, Tuple
     
     parser = argparse.ArgumentParser(description='Process analysis of segmented transcript report')
-    parser.add_argument('--root-dir', default="demo",
-                      help='Root directory containing all project files')
+    parser.add_argument('root_dir', default="demo", nargs='?', help='Root directory containing all project files')
     
     
     args = parser.parse_args()

@@ -2,11 +2,12 @@ import assemblyai as aai
 import os
 from typing import List, Optional
 
-# get keys from .env
+# Initialize AssemblyAI client
+api_key = os.environ.get("ASSEMBLYAI_API_KEY")
+if not api_key:
+    raise ValueError("ASSEMBLYAI_API_KEY not found in environment variables. Please check your .env file.")
 
-
-# Initialize AssemblyAI with your API key
-aai.settings.api_key = os.environ.get("ASSEMBLYAI_API_KEY")
+aai.settings.api_key = api_key
 
 def process_interview_transcript(
     audio_file_path: str, language_code: str = "fr", word_boost: Optional[List[str]] = ["Chatbot",]
@@ -50,11 +51,3 @@ def process_interview_transcript(
         formatted_transcript.append(f"    {utterance.text}")
     
     return "\n".join(formatted_transcript)
-
-
-
-
-
-
-
-

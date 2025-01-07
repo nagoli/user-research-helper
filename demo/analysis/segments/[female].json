@@ -1,0 +1,55 @@
+{
+  "segment_name": "[female]",
+  "answers": {
+    "3": {
+      "segment_name": "[female]",
+      "question_id": "3",
+      "answer_summary": "The common theme among the female segment is the consumption of one to three cups of coffee per day. A tendency is to have coffee during specific times: one cup with breakfast or right after waking up, and potentially additional cups in the mid-morning and mid-afternoon. A notable perspective is the social aspect of coffee consumption, where one interviewee mentioned having an afternoon cup if they have company. Key insights include a structured pattern of coffee consumption tied to daily routines and social interactions.",
+      "rough_answers": [
+        "The interviewee drinks just one or two cups of coffee a day, usually having one cup with breakfast and sometimes one in the afternoon if they have company.",
+        "The person interviewed usually drinks three cups of coffee per day: one right after waking up, one mid-morning, and one mid-afternoon."
+      ],
+      "summary_confidence": "high"
+    },
+    "4": {
+      "segment_name": "[female]",
+      "question_id": "4",
+      "answer_summary": "The common theme among the female respondents is a preference for making coffee at home, particularly as part of their morning routine, due to the enjoyment of the brewing process. However, there is also a tendency to purchase coffee outside, such as a latte, when it is convenient or feels like a special treat, especially during commutes or lunch breaks. A notable unique perspective is the enjoyment of the ritual of brewing coffee at home, which is mentioned explicitly by one respondent. Key insights include the balance between the comfort and ritual of home-brewed coffee and the convenience and indulgence of buying coffee outside.",
+      "rough_answers": [
+        "The interviewee prefers making coffee at home because they enjoy the ritual of brewing a pot in their kitchen. They only buy coffee outside when visiting family in the city.",
+        "The person interviewed prefers making their first cup of coffee at home as part of their morning routine but often buys a latte on the way to the office or during lunch because it's convenient and feels like a treat."
+      ],
+      "summary_confidence": "high"
+    },
+    "5": {
+      "segment_name": "[female]",
+      "question_id": "5",
+      "answer_summary": "The common themes among the female segment when choosing coffee are the importance of taste and price. One interviewee emphasizes a mild taste and affordability due to being on a fixed income, while another values taste and quality, with a preference for supporting local roasters and less concern for price if the coffee is good. A notable unique perspective is the preference for local roasters, highlighting a tendency to support community businesses. Key insights include the prioritization of taste as a critical factor and the varying importance of price based on individual financial situations.",
+      "rough_answers": [
+        "The most important factors for the interviewee when choosing coffee are a mild taste and price, as they are on a fixed income. They don't need anything fancy, just something that tastes good.",
+        "The most important factors when choosing coffee are taste and quality. The person also likes to support local roasters when possible, and price is less of a concern as long as the coffee is good."
+      ],
+      "summary_confidence": "high"
+    },
+    "6": {
+      "segment_name": "[female]",
+      "question_id": "6",
+      "answer_summary": "The responses indicate that coffee is perceived to have a positive impact on energy and productivity among the female segment. A common theme is the use of coffee as a morning routine to help wake up and start the day. One interviewee views coffee as an essential part of their daily routine, particularly for maintaining focus and sharpness during a busy schedule. This highlights a tendency to associate coffee with both a ritualistic and functional role in enhancing productivity. Notably, the unique perspective is the emphasis on coffee being a necessity for managing a hectic lifestyle, suggesting its critical role in professional settings.",
+      "rough_answers": [
+        "The interviewee thinks coffee perks them up in the morning but they don't rely on it too much. It's more about enjoying a warm drink to start the day.",
+        "The person interviewed believes that drinking coffee absolutely impacts their energy and productivity. As an executive with a hectic schedule, coffee keeps them sharp, helps them stay focused during long meetings, and is both a ritual and a necessity."
+      ],
+      "summary_confidence": "high"
+    },
+    "7": {
+      "segment_name": "[female]",
+      "question_id": "7",
+      "answer_summary": "The responses from the female segment reveal a common theme of coffee being intertwined with significant personal and professional moments. One user associates coffee with a cherished daily ritual shared with a loved one, highlighting the beverage's role in creating intimate and memorable experiences. Another user recalls a pivotal career moment where a casual coffee meeting led to a major business opportunity, illustrating coffee's potential to facilitate important professional connections. These anecdotes underscore coffee's dual role as both a comforting personal ritual and a catalyst for professional growth.",
+      "rough_answers": [
+        "The interviewee has a fond memory of sitting on the porch every morning with their husband, sipping coffee and watching the sun rise. It's a simple pleasure that brings back fond memories.",
+        "The person interviewed recalls an early career memory where a casual coffee meeting led to landing a major client deal, turning a simple invitation to grab a coffee into a pivotal business relationship."
+      ],
+      "summary_confidence": "high"
+    }
+  }
+}

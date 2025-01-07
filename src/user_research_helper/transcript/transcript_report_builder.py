@@ -2,6 +2,7 @@ import re
 import json
 import os
 from openpyxl import Workbook
+from openpyxl.worksheet.worksheet import Worksheet
 from openpyxl.styles import PatternFill, Alignment
 from typing import Dict, List, Tuple
 from user_research_helper.campaign.question_parsing import parse_questions
@@ -13,33 +14,39 @@ def load_results(results_file: str) -> Dict[str, Dict]:
         return json.load(f)
 
 def create_excel_report(questions: List[Tuple[str, str]], results_files: List[str], output_file: str):
-    # Create answer report
-    wb = Workbook()
-    ws = wb.active
-    ws.title = "Analysis Results"
+    """
+    Create an Excel report from segment dataset analysis results
+    
+    Args:
+        questions: List of questions with IDs and texts
+        results_files: List of files containing segment answers
+        output_file: Path to save the Excel report
+    """
+    def init_worksheet(workbook: Workbook, title: str, questions: List[Tuple[str, str]]) -> Worksheet:
+        """Initialize a worksheet with headers"""
+        ws = workbook.active
+        ws.title = title
+        
+        # Write headers
+        ws.cell(row=1, column=1, value="File Name")
+        ws.cell(row=1, column=2, value="Segments")
+        for col, (_, question_text) in enumerate(questions, start=3):
+            ws.cell(row=1, column=col, value=question_text)
+        
+        return ws 
 
-    # Write headers
-    ws.cell(row=1, column=1, value="File Name")
-    ws.cell(row=1, column=2, value="Features")
-    for col, (_, question_text) in enumerate(questions, start=3):
-        ws.cell(row=1, column=col, value=question_text)
+    # Create workbooks and initialize worksheets
+    wb = Workbook()
+    ws = init_worksheet(wb, "Analysis Results", questions)
+    wb_quotes = Workbook()
+    ws_quotes = init_worksheet(wb_quotes, "Quotes", questions)
 
     # Define fill colors
     orange_fill = PatternFill(start_color="FFA500", end_color="FFA500", fill_type="solid")
     red_fill = PatternFill(start_color="FF0000", end_color="FF0000", fill_type="solid")
 
-    # Create quote report
-    wb_quotes = Workbook()
-    ws_quotes = wb_quotes.active
-    ws_quotes.title = "Quotes"
-    
-    # Write headers for quotes
-    ws_quotes.cell(row=1, column=1, value="File Name")
-    for col, (_, question_text) in enumerate(questions, start=3):
-        ws_quotes.cell(row=1, column=col, value=question_text)
-
     # Process each results file
-    for row, results_file in enumerate(results_files, start=3):
+    for row, results_file in enumerate(results_files, start=2):
         file_name = os.path.splitext(os.path.basename(results_file))[0]
         ws.cell(row=row, column=1, value=file_name)
         ws_quotes.cell(row=row, column=1, value=file_name)
@@ -58,27 +65,20 @@ def create_excel_report(questions: List[Tuple[str, str]], results_files: List[st
                     elif result['confidence'] == 'low':
                         cell.fill = red_fill
 
-    # Set column widths and text wrapping
-    for column_cells in ws.columns:
-        for cell in column_cells:
-            cell.alignment = Alignment(wrap_text=True)
-        col_letter = column_cells[0].column_letter
-        if col_letter in ['A', 'B']:
-            ws.column_dimensions[col_letter].width = 30
-        else:
-            ws.column_dimensions[col_letter].width = 80
+    def format_worksheet_columns(worksheet):
+        """Format columns of a worksheet with proper width and text wrapping"""
+        for column_cells in worksheet.columns:
+            for cell in column_cells:
+                cell.alignment = Alignment(wrap_text=True)
+            col_letter = column_cells[0].column_letter
+            if col_letter in ['A', 'B']:
+                worksheet.column_dimensions[col_letter].width = 30
+            else:
+                worksheet.column_dimensions[col_letter].width = 80
     
-    #delete col 2 (Features) from quotes
-    ws_quotes.delete_cols(2)
-    
-    for column_cells in ws_quotes.columns:
-        for cell in column_cells:
-            cell.alignment = Alignment(wrap_text=True)
-        col_letter = column_cells[0].column_letter
-        if col_letter in ['A']:
-            ws_quotes.column_dimensions[col_letter].width = 30
-        else:
-            ws_quotes.column_dimensions[col_letter].width = 80
+    # Apply formatting to both worksheets
+    format_worksheet_columns(ws)
+    format_worksheet_columns(ws_quotes)
 
     # Save both workbooks
     wb.save(output_file)

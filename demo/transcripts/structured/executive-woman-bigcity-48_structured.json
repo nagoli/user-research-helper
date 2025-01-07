@@ -1,0 +1,47 @@
+{
+  "Q0": {
+    "question": "How many cups of coffee do you drink per day?",
+    "analysis": {
+      "found": true,
+      "answer": "The person interviewed usually drinks three cups of coffee per day: one right after waking up, one mid-morning, and one mid-afternoon.",
+      "confidence": "high",
+      "quote": "I usually have three."
+    }
+  },
+  "Q1": {
+    "question": "Do you prefer making your coffee at home or buying it outside? Why?",
+    "analysis": {
+      "found": true,
+      "answer": "The person interviewed prefers making their first cup of coffee at home as part of their morning routine but often buys a latte on the way to the office or during lunch because it's convenient and feels like a treat.",
+      "confidence": "high",
+      "quote": "I usually make my first cup at home because it's part of my morning routine."
+    }
+  },
+  "Q2": {
+    "question": "What are the most important factors for you when choosing coffee (e.g., taste, price, origin, etc.)?",
+    "analysis": {
+      "found": true,
+      "answer": "The most important factors when choosing coffee are taste and quality. The person also likes to support local roasters when possible, and price is less of a concern as long as the coffee is good.",
+      "confidence": "high",
+      "quote": "The taste and quality are paramount."
+    }
+  },
+  "Q3": {
+    "question": "Do you think drinking coffee impacts your energy or productivity? If so, how?",
+    "analysis": {
+      "found": true,
+      "answer": "The person interviewed believes that drinking coffee absolutely impacts their energy and productivity. As an executive with a hectic schedule, coffee keeps them sharp, helps them stay focused during long meetings, and is both a ritual and a necessity.",
+      "confidence": "high",
+      "quote": "coffee keeps me sharp"
+    }
+  },
+  "Q4": {
+    "question": "Do you have any special anecdote or memory related to your coffee consumption?",
+    "analysis": {
+      "found": true,
+      "answer": "The person interviewed recalls an early career memory where a casual coffee meeting led to landing a major client deal, turning a simple invitation to grab a coffee into a pivotal business relationship.",
+      "confidence": "high",
+      "quote": "a casual coffee meeting led to landing a major client deal"
+    }
+  }
+}

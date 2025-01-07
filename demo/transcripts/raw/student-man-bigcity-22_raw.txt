@@ -1,0 +1,30 @@
+
+Speaker A [160.00 - 2520.00]:
+    How many cups of coffee do you drink per day?
+
+Speaker B [2640.00 - 10552.00]:
+    I usually have two cups a day. One in the morning to wake me up and another in the late afternoon when I study at the library.
+
+Speaker A [10696.00 - 14680.00]:
+    Do you prefer making your coffee at home or buying it outside? Why?
+
+Speaker B [14800.00 - 24696.00]:
+    I buy coffee outside most of the time because I'm always on the go. I have early classes and it's just easier to grab one on campus or at a nearby cafe.
+
+Speaker A [24808.00 - 32494.00]:
+    What are the most important factors for you when choosing coffee? E. G. Taste, price, origin, etc.
+
+Speaker B [32622.00 - 43966.00]:
+    Taste and convenience. Price matters too, since I'm on a student budget. But I still care about the taste. If the coffee is too bitter or watery, I won't buy it again.
+
+Speaker A [44118.00 - 48958.00]:
+    Do you think drinking coffee impacts your energy or productivity? If so, how?
+
+Speaker B [49094.00 - 59060.00]:
+    Definitely. If I skip my morning coffee, I feel groggy in class. Coffee helps me focus and stay alert, especially when I'm cramming for exams.
+
+Speaker A [59220.00 - 63652.00]:
+    Do you have any special anecdote or memory related to your coffee consumption?
+
+Speaker B [63796.00 - 74580.00]:
+    One time I pulled an all nighter during finals and drank four cups in a row. I didn't sleep at all, but I aced the test the next morning. That was both memorable and stressful.

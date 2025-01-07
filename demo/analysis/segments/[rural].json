@@ -1,0 +1,55 @@
+{
+  "segment_name": "[rural]",
+  "answers": {
+    "3": {
+      "segment_name": "[rural]",
+      "question_id": "3",
+      "answer_summary": "The common theme among the rural segment is that users typically consume one to two cups of coffee per day. A pattern observed is that coffee is usually consumed in the morning, with some users opting for an additional cup in the afternoon, particularly if they are feeling tired or have company. There are no notable unique perspectives as both responses align closely in their coffee consumption habits. The key insight is that coffee consumption in this segment is moderate and often influenced by social or energy-related factors.",
+      "rough_answers": [
+        "The interviewee drinks about two cups of coffee each morning and sometimes a third cup in the afternoon if feeling tired.",
+        "The interviewee drinks just one or two cups of coffee a day, usually having one cup with breakfast and sometimes one in the afternoon if they have company."
+      ],
+      "summary_confidence": "high"
+    },
+    "4": {
+      "segment_name": "[rural]",
+      "question_id": "4",
+      "answer_summary": "The common theme among users in the rural segment is a preference for making coffee at home. This is primarily due to the impracticality of buying coffee outside, as they live far from the city. Additionally, users enjoy the routine or ritual of brewing coffee in their own kitchen. A notable perspective is that some users only purchase coffee outside when visiting family in the city, indicating that external purchases are more of an exception than a routine.",
+      "rough_answers": [
+        "The interviewee prefers making coffee at home because they live far from the city, making it impractical to buy it outside. They also enjoy the routine of brewing their own coffee.",
+        "The interviewee prefers making coffee at home because they enjoy the ritual of brewing a pot in their kitchen. They only buy coffee outside when visiting family in the city."
+      ],
+      "summary_confidence": "high"
+    },
+    "5": {
+      "segment_name": "[rural]",
+      "question_id": "5",
+      "answer_summary": "In the rural segment, the most common factors influencing coffee choice are taste and price. Taste is emphasized, with a preference for a mild flavor. Price is a concern, especially for those on a fixed income, though some are willing to pay more for high-quality coffee. Origin is also considered important by some, with a preference for locally sourced beans.",
+      "rough_answers": [
+        "The most important factors for the interviewee when choosing coffee are taste and origin. They prefer to know where the beans come from and sometimes get them from a local roaster. Price is also a consideration, but they are willing to pay more if the coffee is really good.",
+        "The most important factors for the interviewee when choosing coffee are a mild taste and price, as they are on a fixed income. They don't need anything fancy, just something that tastes good."
+      ],
+      "summary_confidence": "high"
+    },
+    "6": {
+      "segment_name": "[rural]",
+      "question_id": "6",
+      "answer_summary": "Common themes among the rural segment indicate that coffee is primarily used as a morning beverage to help wake up and provide an energy boost, particularly useful for physically demanding tasks like farming. There is a tendency to enjoy coffee as a warm drink to start the day rather than relying heavily on it for energy. A notable perspective is the conscious effort to moderate coffee intake to avoid feeling jittery. Key insights suggest that while coffee is appreciated for its energizing effects, users are mindful of its consumption to maintain balance.",
+      "rough_answers": [
+        "The interviewee believes that drinking coffee helps them wake up in the morning and provides a nice boost for the physically demanding work of farming. However, they try not to drink too much to avoid getting jittery.",
+        "The interviewee thinks coffee perks them up in the morning but they don't rely on it too much. It's more about enjoying a warm drink to start the day."
+      ],
+      "summary_confidence": "high"
+    },
+    "7": {
+      "segment_name": "[rural]",
+      "question_id": "7",
+      "answer_summary": "The responses from the rural segment reveal a common theme of cherished memories associated with coffee consumption, often tied to familial and daily routines. Both interviewees highlight the sensory experience of coffee, such as its aroma and the setting in which it is consumed, as integral to their fond memories. A notable unique perspective is the specific mention of a grandfather's use of a percolator, which underscores the generational and traditional aspects of coffee preparation and consumption in rural settings. Key insights include the emotional connection and nostalgia that coffee evokes, often linked to family and simple pleasures in life.",
+      "rough_answers": [
+        "The interviewee has a special memory of their grandfather making coffee in a big old percolator every morning, which filled the farmhouse with an amazing smell. This memory is one of the reasons they love coffee.",
+        "The interviewee has a fond memory of sitting on the porch every morning with their husband, sipping coffee and watching the sun rise. It's a simple pleasure that brings back fond memories."
+      ],
+      "summary_confidence": "high"
+    }
+  }
+}

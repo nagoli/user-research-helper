@@ -1,12 +1,21 @@
+import os
+import shutil
+from typing import List, Tuple
+from dotenv import load_dotenv
+
+# Load environment variables first
+current_dir = os.path.dirname(os.path.abspath(__file__))
+env_path = os.path.join(current_dir, '.env')
+load_dotenv(env_path)
+
+
+
+# Import other modules after loading environment variables
 from user_research_helper.campaign.question_parsing import parse_questions
 from user_research_helper.transcript.transcript_builder import process_interview_transcript
 from user_research_helper.transcript.transcript_analysis import analyze_transcript_with_questions
 from user_research_helper.transcript.transcript_report_builder import create_excel_report
 from user_research_helper.campaign.config import config
-from typing import List, Tuple
-import shutil
-from dotenv import load_dotenv
-load_dotenv()
 
 def process_interview(
     audio_file: str,
@@ -145,8 +154,10 @@ def process_interview_directory(
             if config.should_debug('verbose'):
                 print(f"Report generated: {report_file}")
             if not os.path.exists(analysis_report_file):
+                # copy report file if not already existing
                 shutil.copy2(report_file, analysis_report_file)
-                shutil.copy2(report_file, analysis_report_file.replace('.xlsx', '_quotes.xlsx'))
+                #copy report quotres if not already existing 
+                shutil.copy2(report_file.replace('.xlsx', '_quotes.xlsx'), analysis_report_file.replace('.xlsx', '_quotes.xlsx'))
                 if config.should_debug('verbose'):
                     print(f"Copied report file to analysis directory: {analysis_report_file}")
             # Create segment dataset if requested
@@ -200,9 +211,7 @@ if __name__ == "__main__":
     from typing import List, Tuple
     
     parser = argparse.ArgumentParser(description='Process interview audio files')
-    parser.add_argument('--root-dir', default="demo",
-                      help='Root directory containing all project files')
-    
+    parser.add_argument('root_dir', default="demo", nargs='?', help='Root directory containing all project files')
     
     args = parser.parse_args()
     

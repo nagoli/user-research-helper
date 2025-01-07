@@ -1,0 +1,30 @@
+
+Speaker A [160.00 - 2520.00]:
+    How many cups of coffee do you drink per day?
+
+Speaker B [2640.00 - 8936.00]:
+    I usually have three. One right after I wake up, one mid morning and one mid afternoon.
+
+Speaker A [9048.00 - 13048.00]:
+    Do you prefer making your coffee at home or buying it outside? Why?
+
+Speaker B [13184.00 - 24168.00]:
+    I usually make my first cup at home because it's part of my morning routine. But I often grab a latte on my way to the office or during lunch because it's convenient and feels like a little treat.
+
+Speaker A [24304.00 - 31966.00]:
+    What are the most important factors for you when choosing coffee? E. G. Taste, price, origin, etc.
+
+Speaker B [32078.00 - 41390.00]:
+    The taste and quality are paramount. I also like to support local roasters when possible. Price is less of a concern for me as long as the coffee is good.
+
+Speaker A [41510.00 - 46398.00]:
+    Do you think drinking coffee impacts your energy or productivity? If so, how?
+
+Speaker B [46534.00 - 57624.00]:
+    Absolutely. As an executive, my schedule is hectic and coffee keeps me sharp. It's part ritual, part necessity. It helps me stay focused during long meetings.
+
+Speaker A [57752.00 - 62056.00]:
+    Do you have any special anecdote or memory related to your coffee consumption?
+
+Speaker B [62168.00 - 72920.00]:
+    Early in my career, I landed a major client deal after a casual coffee meeting. I'll never forget how that simple invitation to grab a coffee turned into a pivotal business relationship.

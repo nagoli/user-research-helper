@@ -1,0 +1,30 @@
+
+Speaker A [160.00 - 2520.00]:
+    How many cups of coffee do you drink per day?
+
+Speaker B [2640.00 - 11000.00]:
+    I have about two cups each morning before heading out to the fields. Sometimes I'll have a third cup in the afternoon if I'm feeling tired.
+
+Speaker A [11160.00 - 15160.00]:
+    Do you prefer making your coffee at home or buying it outside? Why?
+
+Speaker B [15280.00 - 25600.00]:
+    I always make my coffee at home. I live quite far from the city, so it's not very practical to buy it outside. Plus, I like the routine of brewing my own.
+
+Speaker A [25760.00 - 33408.00]:
+    What are the most important factors for you when choosing coffee? E. G. Taste, price, origin, etc.
+
+Speaker B [33504.00 - 46096.00]:
+    I care about both taste and origin. I prefer to know where the beans come from. Sometimes I even get them from a local roaster. Price matters too, but I'll pay a bit more if the coffee is really good.
+
+Speaker A [46248.00 - 51174.00]:
+    Do you think drinking coffee impacts your energy or productivity? If so, how?
+
+Speaker B [51312.00 - 62394.00]:
+    It does help me wake up in the morning. Farming can be physically demanding, so that little boost is nice. But I try not to overdo it because if I drink too much, I get jittery.
+
+Speaker A [62522.00 - 66874.00]:
+    Do you have any special anecdote or memory related to your coffee consumption?
+
+Speaker B [67002.00 - 77330.00]:
+    My grandfather used to make coffee in a big old percolator every morning, and the whole farmhouse smelled amazing. It's one of the things that made me love coffee in the first place.

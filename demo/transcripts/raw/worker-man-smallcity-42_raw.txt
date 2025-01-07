@@ -1,0 +1,30 @@
+
+Speaker A [160.00 - 2568.00]:
+    How many cups of coffee do you drink per day?
+
+Speaker B [2704.00 - 10680.00]:
+    Usually three cups. One at home before I leave for work, one during my morning break, and one after lunch if I'm feeling tired.
+
+Speaker A [10840.00 - 14840.00]:
+    Do you prefer making your coffee at home or buying it outside? Why?
+
+Speaker B [14960.00 - 23080.00]:
+    I make my first cup at home to save money, and then I buy one at the factory's vending machine or the nearby cafe because it's convenient.
+
+Speaker A [23240.00 - 30916.00]:
+    What are the most important factors for you when choosing coffee? E. G. Taste, price, origin, etc.
+
+Speaker B [31028.00 - 40244.00]:
+    Price and convenience are the biggest factors. I like decent taste, but I won't pay a fortune for it. If it's quick and affordable, I'm happy.
+
+Speaker A [40372.00 - 45268.00]:
+    Do you think drinking coffee impacts your energy or productivity? If so, how?
+
+Speaker B [45404.00 - 57660.00]:
+    Absolutely. I work long shifts and coffee helps me stay alert. Around midday, I can feel my energy drop. So a coffee break really helps me push through the rest of the shift.
+
+Speaker A [57820.00 - 62204.00]:
+    Do you have any special anecdote or memory related to your coffee consumption?
+
+Speaker B [62332.00 - 77420.00]:
+    One time, our department organized a coffee tasting event which was really fun. We sampled different blends and I realized I actually prefer slightly stronger coffee than I thought. That was a nice change from the usual vending machine stuff.

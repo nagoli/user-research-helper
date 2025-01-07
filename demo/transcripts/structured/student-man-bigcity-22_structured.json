@@ -1,0 +1,47 @@
+{
+  "Q0": {
+    "question": "How many cups of coffee do you drink per day?",
+    "analysis": {
+      "found": true,
+      "answer": "The interviewee usually drinks two cups of coffee per day.",
+      "confidence": "high",
+      "quote": "I usually have two cups a day."
+    }
+  },
+  "Q1": {
+    "question": "Do you prefer making your coffee at home or buying it outside? Why?",
+    "analysis": {
+      "found": true,
+      "answer": "The interviewee prefers buying coffee outside most of the time because they are always on the go with early classes, making it easier to grab one on campus or at a nearby cafe.",
+      "confidence": "high",
+      "quote": "I buy coffee outside most of the time because I'm always on the go."
+    }
+  },
+  "Q2": {
+    "question": "What are the most important factors for you when choosing coffee (e.g., taste, price, origin, etc.)?",
+    "analysis": {
+      "found": true,
+      "answer": "The most important factors for the interviewee when choosing coffee are taste and convenience. Price is also important due to their student budget, but they prioritize taste, avoiding coffee that is too bitter or watery.",
+      "confidence": "high",
+      "quote": "Taste and convenience. Price matters too, since I'm on a student budget."
+    }
+  },
+  "Q3": {
+    "question": "Do you think drinking coffee impacts your energy or productivity? If so, how?",
+    "analysis": {
+      "found": true,
+      "answer": "The interviewee believes that drinking coffee definitely impacts their energy and productivity. If they skip their morning coffee, they feel groggy in class. Coffee helps them focus and stay alert, especially when cramming for exams.",
+      "confidence": "high",
+      "quote": "If I skip my morning coffee, I feel groggy in class."
+    }
+  },
+  "Q4": {
+    "question": "Do you have any special anecdote or memory related to your coffee consumption?",
+    "analysis": {
+      "found": true,
+      "answer": "The interviewee shared a memorable and stressful anecdote about pulling an all-nighter during finals, where they drank four cups of coffee in a row. Although they didn't sleep at all, they managed to ace the test the next morning.",
+      "confidence": "high",
+      "quote": "One time I pulled an all nighter during finals and drank four cups in a row."
+    }
+  }
+}
