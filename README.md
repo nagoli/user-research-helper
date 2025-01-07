@@ -3,34 +3,61 @@ AI Assistant for UX Research: A human-in-the-loop helper for user interview tran
 
 ![Logo](assets/logo.png)
 
+## Quick Start
+1. `pip install -e .`
+2. Copy `.envExample` to `.env` and set `OPENAI_API_KEY` and `ASSEMBLYAI_API_KEY`.
+3. Prepare your `questions.txt`, `audios/` folder, and `config.json`.
+4. Run `python process_transcripts.py your/project/folder`.
+5. Edit `analysis/transcript_analysis_report.xlsx` to define segments.
+6. Run `python process_analysis.py your/project/folder`.
+
+
 ## Introduction
 
-Input = Interviews Audio File + Questions 
+User Research Helper is an AI-augmented tool that streamlines the process of analyzing user research interviews. It combines automated audio transcription (via AssemblyAI) with OpenAI-powered analysis to generate organized, question-based insights.
 
-Ouput = Excel file with answer analysis for each interview organized per question
+Core Workflow
+	1.	Input
+	•	Audio recordings of interviews
+	•	A set of predefined interview questions
+	2.	Process
+	•	Transcribes each audio file automatically
+	•	Maps responses to corresponding interview questions
+	•	Provides an Excel report with initial analysis per question, per interview
+	3.	Human Review
+	•	Lets you manually segment or categorize interviews in the Excel file
+	•	Offers the flexibility to refine automated analyses
+	4.	Output
+	•	Generates a Word report that summarizes cross-interview findings by question
+	•	Integrates direct quotes from transcripts
+	•	Enables a high-level, human-vetted view of key insights
 
-Entry = Manual segment definition and per interview analysis adjustment on the generated excel file
+Key Benefits
+	•	Save Time: Automated transcription and analysis reduce manual overhead.
+	•	Stay Flexible: Human-in-the-loop oversight ensures you can refine results or override AI suggestions.
+	•	Centralize Insights: Organized Excel sheets and Word reports keep all findings in one place.
+	•	Scalable: Easily handle multiple interviews without losing structure or clarity.
 
-Output = Word with comprehensive Report per Question based on segment analysis and cross-interview insights, including quotes from interviews
+By blending automated data processing with manual oversight, User Research Helper allows UX researchers and analysts to focus on deeper insights, rather than tedious transcription and data wrangling.
 
-User Research Analyst is designed to simplify the complex process of analyzing user research interviews. While the analysis of surveys and interviews is a complex task requiring advanced skills and intuition, this tool aims to streamline the analysis process by focusing on structured question-oriented insights. Although it does not generate complete reports, it facilitates the analysis by providing a structured approach based on predefined questions.
-
-The tool combines manual and automated analysis processes, serving as a support for analysis rather than a replacement. It offers a blend of manual insights with automated data processing, helping analysts to focus on more nuanced and complex aspects of their research.
-
-This tool uses the AssemblyAI API for audio transcription, and OpenAI GPT-4o for analysis, Python for data processing and report generation, Excel and Word for report generation.
-
-## Acknowledgments
-
-This project was partially funded by [Access42](https://access42.net), a major supporter of web accessibility in France. We sincerely thank them for their support and trust in the development of this software. 
+ 
 
 ## Features
 
-- Automated audio transcription using AssemblyAI
-- Structured interview analysis based on predefined questions
-- Segment-based analysis for detailed insights
-- Excel report generation for easy data visualization
-- Quote extraction and management
-- Multi-language support
+	•	Automated Audio Transcription
+Quickly convert interview recordings to text using the AssemblyAI API.
+	•	Question-Based Analysis
+Automatically map interview responses to a predefined set of questions for organized insights.
+	•	Segment-Based Insights
+Define user segments (e.g., demographics, behavior groups) and tag each interview’s responses accordingly.
+	•	Excel Report Generation
+Generate structured Excel files that summarize findings per question, per interview.
+	•	Quote Extraction
+Automatically pinpoint and extract key quotes for easy reference in the analysis report.
+	•	Cross-Interview Insights
+Combine data from multiple interviews to uncover broader trends, patterns, and outliers.
+	•	Multi-Language Support
+Process interviews in various languages without sacrificing structure or clarity.
 
 ## Prerequisites
 
@@ -42,114 +69,160 @@ This project was partially funded by [Access42](https://access42.net), a major s
 ## Installation
 
 1. Clone the repository
+```bash
+git clone https://github.com/nagoli/user-research-helper.git
+cd user-research-helper
+```
+
 2. Install dependencies:
 ```bash
 pip install -e .
 ```
-3. Copy `.envExample` to `.env` and fill in your API keys:
-   - `OPENAI_API_KEY`: Your OpenAI API key
-   - `ASSEMBLYAI_API_KEY`: Your AssemblyAI API key
 
-## User Data Setup
-
-The project requires a specific data folder structure.
-You can use the 'data_skeleton' folder as a template.
-
-1. Create a data folder with the following structure:
+3.	Set up Environment Variables
+Copy the example environment file and fill in your personal API keys:
+```bash
+cp .envExample .env
 ```
+
+Open the newly created .env file and update:
+```bash
+OPENAI_API_KEY=<your-openai-api-key>
+ASSEMBLYAI_API_KEY=<your-assemblyai-api-key>
+```
+
+
+## Usage Guide
+
+This **Usage** guide explains how to organize your data, run each processing step, and refine interview segments. It also describes the intermediate files that the tool generates to avoid unnecessary re-computation. If you ever need to re-run a specific analysis step, simply delete the relevant intermediate files before running the script again.
+
+---
+
+### 1. Data Setup
+
+1. **Folder Structure**  
+   Create or select a project folder with the following structure:
+
 your/project/folder/
 ├── audios/         # Place your interview audio files here
 ├── config.json     # Configuration file for the analysis
 └── questions.txt   # List of interview questions
-```
 
-2. Required files:
-   - `questions.txt`: Contains the list of interview questions, one per line
-   - `config.json`: Contains project configuration settings
-   - `audios/`: Directory containing the audio files to be transcribed
+2. **Use the `data_skeleton` Folder (Recommended)**  
+- You can copy or reference the `data_skeleton/` folder included in this repository.  
+- It contains a ready-to-use `config.json` that shows which settings you can define for your project—such as special instructions for the language model (LLM).  
+- Feel free to customize `config.json` for flags like `"do_transcribe_audio": true/false` or other advanced settings related to LLM instructions.
 
-See the `demo` folder for examples of these files and their format.
+3. **Required Files**  
+- **`questions.txt`**: One interview question per line.  
+- **`config.json`**: Stores project configuration (e.g., transcription toggle, advanced LLM parameters).  
+- **`audios/`**: Folder containing your audio files to be transcribed.
 
-## Usage
+> **Tip:** The `demo/` folder offers a complete walk-through with sample audio files, questions, and configuration. Use it as a reference to get started quickly.
 
-Once the data folder is set up, you can start the project by running the following commands:
+---
 
-### 1. Process Transcripts
+### 2. Process Transcripts
+
+Once your data folder is prepared:
+
 ```bash
 python process_transcripts.py your/project/folder
 ```
 
-Handles the initial processing of interview recordings in 3 steps :
+This script performs three main tasks and writes intermediate files to help avoid re-processing:
+	**1.	Audio Transcription**
+	•	Reads questions.txt and transcribes every audio file in audios/.
+	•	Saves raw transcripts in transcripts/raw/.
 
-- Take a question list "questions.txt" as input and the audio files in the "audios/" directory.
-
-*For exemple in the demo project we have a question list and 5 audio files to process :*
+In the demo folder (5 sample audios), you’ll see 5 raw transcripts:
 ![Audios in demo exemple](assets/audios.png)
-
-
-1 - Transcribes each audio files into text, saving them in the “transcripts/raw” directory.
-
-*For exemple in the demo project 5 transcripts are generated :*
 ![Transcripts in demo exemple](assets/transcripts.png)
 
+	**2.	Structured Transcripts**
+	•	Organizes raw transcripts by your predefined questions.
+	•	Saves structured transcripts in transcripts/structured/.
 
-2 - Structures each transcripts based on interview questions and raw transcripts and saves them in the “transcripts/structured” directory.
-
-*For exemple in the demo project 5 structured transcripts are generated :*
+Example from demo: each transcript is now sectioned by question:
 ![Structured transcripts in demo exemple](assets/structured_transcripts.png)
 
-3 - Generates initial analysis reports in the “transcripts” directory based on the structured data:
-  - `transcript_analysis_report.xlsx`: Contains the results of the analysis, organized by question, with one line per interview.
-  - `transcript_analysis_report_quotes.xlsx`: Contains the most significant quotes from the interviews, organized by question, with one line per interview.
 
-*For exemple in the demo project two analysis reports are generated : *
+	**3.	Initial Analysis Reports**
+	•	Generates two Excel files in the transcripts/ directory:
+	•	transcript_analysis_report.xlsx
+	•	transcript_analysis_report_quotes.xlsx
+These files list interview responses and notable quotes per question, per interview.
+
+The demo project example:
 ![Analysis reports in demo exemple](assets/analysis_files.png)
 
-If you add a new interview, you only need to add the audio file to the `audios/` directory and the `process_transcripts.py` script will handle the rest. The previous transcripts will not be overwritten. You will need to delete them if you want to start generate new version of them.
 
-The configuration file `config.json` is used to control the behavior of the script. You can modify it to change the default behavior of the script and cancel some steps. For example, you can set the `do_transcribe_audio` flag to `false` to skip the transcription step.
+**Note on Intermediate Files**
+		•	If you add a new interview (audio file) later, simply place it in audios/ and rerun the script.
+	•	Existing transcripts are not overwritten unless you manually remove them. This design helps you avoid re-transcribing interviews every time.
 
+### 3. Manual Segment Definition & Adjustment
 
-### 2. Manual segment definition and adjustment
-Modify the transcript_analysis_report.xlsx file created in the analysis folder. Define the segment to apply to each interview/line of the report in the segment column. You can assign more than one segment per interview by separating each segment with a comma. In practice, we advise limiting it to one or two segments per interview.
-At that part of the process adjust also the analysis if you find it necessary.
-Copy also those segments in the transcript_analysis_report_quotes.xlsx file created in the analysis folder . 
+After the initial analysis, the generated Excel files in the transcripts/ folder will be automatically copied into the analysis/ folder. These are the files you will modify to add segments or adjust AI-generated insights.
 
-*For exemple in the demo project the folowing segments are added to the 2 report files :*
+	**1.	Segments in the Analysis Folder**
+	•	Open transcript_analysis_report.xlsx located in the analysis/ folder.
+	•	Under the Segment column, assign one or two segments (e.g., “Beginner”, “Expert”) to each interview. Separate multiple segments with commas.
+	•	Update or refine any AI-generated text if needed.
+	•	Repeat the same segment assignments in transcript_analysis_report_quotes.xlsx to keep quotes aligned.
+
+In the demo project, segments have been added to both files:
 ![Segments in demo exemple](assets/manual_segment_addition.png)
 
-### 3. Process Analysis (`process_analysis.py`)
 
+	**2.	Preserving Modifications**
+	•	The tool automatically generates fresh reports in the transcripts/ folder if you re-run process_transcripts.py.
+	•	These new reports do not overwrite your analysis/ folder files by default. This safeguard keeps your manual modifications safe.
+	•	If you want to incorporate newly generated data from transcripts/ into analysis/, you’ll need to manually overwrite the existing analysis files in analysis/—and re-add segments or edits as needed.
+
+### 4. Process Analysis
+
+Next, refine your insights further:
 ```bash
 python process_analysis.py your/project/folder
-``` 
+```
 
-Performs a deeper analysis of the transcribed interviews in 3 steps:
+This script uses intermediate files to avoid repeating costly computations:
+	**1.	Segment-Based Analysis**
+	•	Reads your edited transcript_analysis_report.xlsx from analysis/.
+	•	Produces detailed, segment-focused Excel sheets in analysis/segments/.
 
-1.	Segment-Based Analysis
--	Use the file analysis/transcript_analysis_report.xlsx as input.
--	Generate segment-based analysis and save the results in the analysis/segments folder.
-
-*For exemple in the demo project the segment analysis files generated has this format :*
+Demo shows segment analyses with key observations per group:
 ![Per Segment analysis in demo exemple](assets/per_segment_analysis.png)
 
+	**2.	Cross-Interview Insights**
+	•	Examines the segment-based output to identify patterns across multiple interviews.
+	•	Saves consolidated data in analysis/results_report.xlsx.
 
-2.	Cross-Interview Insights
--	Use the segment-based analysis from the analysis/segments folder.
--	Generate cross-interview insights and save the results in analysis/results_report.xlsx.
-
-*For exemple in the demo project the cross-interview analysis file generated has this format :*
+Demo merges segment data to reveal broad trends:
 ![Cross Interview insights in demo exemple](assets/cross_interview_analysis.png)
 
-3.	Comprehensive Report per Question
--	Combine quotes from analysis/transcript_analysis_report_quotes.xlsx with insights from analysis/results_report.xlsx.
--	Create a comprehensive per-question report in MS Word format and save it as analysis/analysis_report.docx.
+	**3.	Comprehensive Word Report**
+	•	Combines quotes from transcript_analysis_report_quotes.xlsx with the aggregated data in results_report.xlsx.
+	•	Outputs a final analysis_report.docx in the analysis/ folder.
 
-*For exemple in the demo project the final report generated has this format :*
+The demo project’s final Word report looks like this:
 ![Final report in demo exemple](assets/final_report.png)
 
-The configuration file `config.json` is used to control the behavior of the script. You can modify it to change the default behavior of the script and cancel some steps. 
 
+### Regenerating Specific Parts
+
+**Intermediate Files**
+	•	Each stage above saves its results in distinct directories (e.g., transcripts/raw, analysis/segments).
+	•	This design ensures you don’t need to re-run the entire workflow every time.
+
+**How to Re-Run a Specific Step**
+	•	Delete (or rename) the relevant intermediate files or folders. For instance, remove a specific raw transcript to re-transcribe an audio file.
+	•	Then re-run the associated script (process_transcripts.py or process_analysis.py).
+	•	The tool will regenerate only what’s missing, preventing unnecessary overhead.
+
+
+By following these steps—while referencing the demo folder for concrete examples—you can flexibly manage, annotate, and analyze user interviews at scale. The human-in-the-loop model guarantees that AI-driven processes never overshadow your own expertise and insights.
 
 
 ## Project Structure
@@ -170,6 +243,7 @@ The configuration file `config.json` is used to control the behavior of the scri
 - openpyxl - For Excel report generation
 - python-docx - For Word document handling
 
+
 ## License
 
 This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
@@ -186,3 +260,9 @@ For more details, see the [GNU GPL v3.0](https://www.gnu.org/licenses/gpl-3.0.en
 ## Contributing
 
 We welcome contributions from the community! If you're interested in improving User Research Helper, please feel free to fork the repository, make your changes, and submit a pull request. For major changes, please open an issue first to discuss what you would like to change. 
+
+
+
+## Acknowledgments
+
+This project was partially funded by [Access42](https://access42.net), a major supporter of web accessibility in France. We sincerely thank them for their support and trust in the development of this software.
