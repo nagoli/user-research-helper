@@ -7,9 +7,9 @@ AI Assistant for UX Research: A human-in-the-loop helper for user interview tran
 
 Input = Interviews Audio File + Questions 
 
-Ouput= Excel file with answer analysis for each interview organized per question
+Ouput = Excel file with answer analysis for each interview organized per question
 
-Entry = Segment definition and per interview analysis adjustment on the generated excel file
+Entry = Manual segment definition and per interview analysis adjustment on the generated excel file
 
 Output = Word with comprehensive Report per Question based on segment analysis and cross-interview insights, including quotes from interviews
 
@@ -80,16 +80,28 @@ python process_transcripts.py your/project/folder
 ```
 
 Handles the initial processing of interview recordings in 3 steps :
+
 - Take a question list "questions.txt" as input and the audio files in the "audios/" directory.
+
+*For exemple in the demo project we have a question list and 5 audio files to process :*
 ![Audios in demo exemple](assets/audios.png)
+
+
 1 - Transcribes each audio files into text, saving them in the “transcripts/raw” directory.
+For exemple in the demo project 5 transcripts are generated :
 ![Transcripts in demo exemple](assets/transcripts.png)
+
+
 2 - Structures each transcripts based on interview questions and raw transcripts and saves them in the “transcripts/structured” directory.
+
+*For exemple in the demo project 5 structured transcripts are generated :*
 ![Structured transcripts in demo exemple](assets/structured_transcripts.png)
 
 3 - Generates initial analysis reports in the “transcripts” directory based on the structured data:
   - `transcript_analysis_report.xlsx`: Contains the results of the analysis, organized by question, with one line per interview.
   - `transcript_analysis_report_quotes.xlsx`: Contains the most significant quotes from the interviews, organized by question, with one line per interview.
+
+*For exemple in the demo project two analysis reports are generated : *
 ![Analysis reports in demo exemple](assets/analysis_files.png)
 
 If you add a new interview, you only need to add the audio file to the `audios/` directory and the `process_transcripts.py` script will handle the rest. The previous transcripts will not be overwritten. You will need to delete them if you want to start generate new version of them.
@@ -102,6 +114,7 @@ Modify the transcript_analysis_report.xlsx file created in the analysis folder. 
 At that part of the process adjust also the analysis if you find it necessary.
 Copy also those segments in the transcript_analysis_report_quotes.xlsx file created in the analysis folder . 
 
+*For exemple in the demo project the folowing segments are added to the 2 report files :*
 ![Segments in demo exemple](assets/manual_segment_addition.png)
 
 ### 3. Process Analysis (`process_analysis.py`)
@@ -111,17 +124,27 @@ python process_analysis.py your/project/folder
 ```
 
 Performs a deeper analysis of the transcribed interviews in 3 steps:
+
 	1.	Segment-Based Analysis
 	-	Use the file analysis/transcript_analysis_report.xlsx as input.
 	-	Generate segment-based analysis and save the results in the analysis/segments folder.
+    
+    *For exemple in the demo project the segment analysis files generated has this format :*
     ![Per Segment analysis in demo exemple](assets/per_segment_analysis.png)
+
+
 	2.	Cross-Interview Insights
 	-	Use the segment-based analysis from the analysis/segments folder.
 	-	Generate cross-interview insights and save the results in analysis/results_report.xlsx.
+
+    *For exemple in the demo project the cross-interview analysis file generated has this format :*
     ![Cross Interview insights in demo exemple](assets/cross_interview_analysis.png)
+
 	3.	Comprehensive Report per Question
 	-	Combine quotes from analysis/transcript_analysis_report_quotes.xlsx with insights from analysis/results_report.xlsx.
 	-	Create a comprehensive per-question report in MS Word format and save it as analysis/analysis_report.docx.
+
+    *For exemple in the demo project the final report generated has this format :*
     ![Final report in demo exemple](assets/final_report.png)
 
 The configuration file `config.json` is used to control the behavior of the script. You can modify it to change the default behavior of the script and cancel some steps. 
