@@ -1,0 +1,42 @@
+{
+    "// transcript analysis actions": null,
+    "do_transcribe_audio": true,
+    "do_analyze_audio_transcript": true,
+    "do_make_transcript_report": true,
+
+    "// result analysis actions": null,
+    "do_segment_summaries": true,
+    "do_result_analysis": true,
+    "do_add_quotes": true,
+
+
+    "// language definition": null,
+    "language_id": "fr",
+    "language": "french",
+
+    "// llm operations context": null,
+    
+    "llm_common_context" : "Explain here the interview purpose and context.",
+
+    "llm_answer_extraction_context": "Leave blank or specify the particular aspects of your interviews that are important for the answer extraction process. For example, prefix parts of the answers with the tool type, such as [toolA], [toolB], or [toolC].",
+    
+    "llm_answer_analysis_context": "Leave blank or specify the particular aspects of your interviews that are important for the individual answer analysis process. For exemple, do a specific synthesis for each tool [toolA] [toolB] and [toolC]. Prefix each synthesis with [toolA] [toolB] and [toolC]. ",
+
+    "llm_result_analysis_context": "Leave blank or specify the particular aspects of your interviews that are important for the global analysis of all the answer for each question. For exemple, do a specific analysis for each tool [toolA] [toolB] and [toolC]. Prefix each analysis with [toolA] [toolB] and [toolC]. Also specify the name of the segments in square brackets ([segmentA] [segmentB] and [segmentC]) if the segments are concerned by the analysis .",
+
+    "// transcript word_boost": null,
+    "word_boost": [
+        "add all words specific to your interviews",
+        "in the language of the interviews"
+    ],
+
+    "// debug": null,
+    "debug": {
+        "print_questions": false,
+        "print_transcripts": false,
+        "print_analysis": false,
+        "verbose": true,
+        "print_result_analysis_parsing": false,
+        "print_result_analysis": false
+    }
+}
