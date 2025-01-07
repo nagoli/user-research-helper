@@ -1,7 +1,7 @@
 # user-research-helper
 AI Assistant for UX Research: A human-in-the-loop helper for user interview transcription and insight analysis.
 
-![Logo](assets/logo.png)
+![User research helper process](assets/process.png)
 
 ## Quick Start
 1. `pip install -e .`
