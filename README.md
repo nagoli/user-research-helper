@@ -49,25 +49,25 @@ By blending automated data processing with manual oversight, User Research Helpe
 
 ## Features
 
-### Automated Audio Transcription
+**Automated Audio Transcription**
 - Quickly convert interview recordings to text using the AssemblyAI API
 
-### Question-Based Analysis
+**Question-Based Analysis**
 - Automatically map interview responses to a predefined set of questions for organized insights
 
-### Segment-Based Insights
+**Segment-Based Insights**
 - Define user segments (e.g., demographics, behavior groups) and tag each interview's responses accordingly
 
-### Excel Report Generation
+**Excel Report Generation**
 - Generate structured Excel files that summarize findings per question, per interview
 
-### Quote Extraction
+**Quote Extraction**
 - Automatically pinpoint and extract key quotes for easy reference in the analysis report
 
-### Cross-Interview Insights
+**Cross-Interview Insights**
 - Combine data from multiple interviews to uncover broader trends, patterns, and outliers
 
-### Multi-Language Support
+**Multi-Language Support**
 - Process interviews in various languages without sacrificing structure or clarity
 
 ## Prerequisites
@@ -134,10 +134,13 @@ your/project/folder/
 
 > **Tip:** The [`demo/` folder](demo/) offers a complete walk-through with sample audio files, questions, and configuration. Use it as a reference to get started quickly.
 > The demo includes a sample of 5 interviews exploring users’ habits while drinking coffee.  
-> The config file for this demo project is : 
-> ![Config in demo exemple](assets/config.png)
+
 > The question file for this demo project is:
 > ![Questions in demo exemple](assets/questions.png)
+
+> The config file for this demo project is : 
+> ![Config in demo exemple](assets/config.png)
+
 ---
 
 ### 2. Process Transcripts
