@@ -1,18 +1,7 @@
 {
-    "// transcript analysis actions": null,
-    "do_transcribe_audio": true,
-    "do_analyze_audio_transcript": true,
-    "do_make_transcript_report": true,
-
-    "// result analysis actions": null,
-    "do_segment_summaries": true,
-    "do_result_analysis": true,
-    "do_add_quotes": true,
-
-
     "// language definition": null,
-    "language_id": "fr",
-    "language": "french",
+    "language_id": "en",
+    "language": "english",
 
     "// llm operations context": null,
     
@@ -29,6 +18,17 @@
         "add all words specific to your interviews",
         "in the language of the interviews"
     ],
+
+    "// transcript analysis actions": null,
+    "do_transcribe_audio": true,
+    "do_analyze_audio_transcript": true,
+    "do_make_transcript_report": true,
+
+    "// result analysis actions": null,
+    "do_segment_summaries": true,
+    "do_result_analysis": true,
+    "do_add_quotes": true,
+
 
     "// debug": null,
     "debug": {

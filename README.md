@@ -114,13 +114,16 @@ This **Usage** guide explains how to organize your data, run each processing ste
 1. **Folder Structure**  
    Create or select a project folder with the following structure:
 
+```
 your/project/folder/
+│
 ├── audios/         # Place your interview audio files here
 ├── config.json     # Configuration file for the analysis
 └── questions.txt   # List of interview questions
+```
 
 2. **Use the `data_skeleton` Folder (Recommended)**  
-- You can copy or reference the `data_skeleton/` folder included in this repository.  
+- You can copy or reference the [`data_skeleton/` folder](data_skeleton/) included in this repository.  
 - It contains a ready-to-use `config.json` that shows which settings you can define for your project—such as special instructions for the language model (LLM).  
 - Feel free to customize `config.json` for flags like `"do_transcribe_audio": true/false` or other advanced settings related to LLM instructions.
 
@@ -129,8 +132,12 @@ your/project/folder/
 - **`config.json`**: Stores project configuration (e.g., transcription toggle, advanced LLM parameters).  
 - **`audios/`**: Folder containing your audio files to be transcribed.
 
-> **Tip:** The `demo/` folder offers a complete walk-through with sample audio files, questions, and configuration. Use it as a reference to get started quickly.
-
+> **Tip:** The [`demo/` folder](demo/) offers a complete walk-through with sample audio files, questions, and configuration. Use it as a reference to get started quickly.
+> The demo includes a sample of 5 interviews exploring users’ habits while drinking coffee.  
+> The config file for this demo project is : 
+> ![Config in demo exemple](assets/config.png)
+> The question file for this demo project is:
+> ![Questions in demo exemple](assets/questions.png)
 ---
 
 ### 2. Process Transcripts

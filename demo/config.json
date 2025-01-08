@@ -1,4 +1,20 @@
 {
+    "// language definition": null,
+    "language_id": "en",
+    "language": "english",
+
+    "// llm operations context": null,
+    "llm_common_context" : "This interview focuses on users’ habits while drinking coffee.",
+    "llm_answer_extraction_context": "",
+    "llm_answer_analysis_context": "",
+    "llm_result_analysis_context": "",
+
+    "// transcript word_boost": null,
+    "word_boost": [
+        "coffee",
+        "chocolate"
+    ],
+
     "// transcript analysis actions": null,
     "do_transcribe_audio": true,
     "do_analyze_audio_transcript": true,
@@ -8,27 +24,6 @@
     "do_segment_summaries": true,
     "do_result_analysis": true,
     "do_add_quotes": true,
-
-
-    "// language definition": null,
-    "language_id": "en",
-    "language": "english",
-
-    "// llm operations context": null,
-    
-    "llm_common_context" : "This interview deals with the habits of users while drinking coffee.",
-
-    "llm_answer_extraction_context": "",
-    
-    "llm_answer_analysis_context": "",
-
-    "llm_result_analysis_context": "",
-
-    "// transcript word_boost": null,
-    "word_boost": [
-        "coffee",
-        "chocolate"
-    ],
 
     "// debug": null,
     "debug": {
