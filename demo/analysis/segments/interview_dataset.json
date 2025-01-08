@@ -44,8 +44,8 @@
     {
       "name": "worker-man-smallcity-42_structured",
       "segments": [
-        "[male]",
-        "[urban]"
+        "[urban]",
+        "[male]"
       ],
       "answers": {
         "3": "The interviewee drinks usually three cups of coffee per day: one at home before leaving for work, one during the morning break, and one after lunch if feeling tired.",
@@ -72,8 +72,8 @@
     {
       "name": "student-man-bigcity-22_structured",
       "segments": [
-        "[male]",
-        "[urban]"
+        "[urban]",
+        "[male]"
       ],
       "answers": {
         "3": "The interviewee usually drinks two cups of coffee per day.",
@@ -86,8 +86,8 @@
     {
       "name": "executive-woman-bigcity-48_structured",
       "segments": [
-        "[female]",
-        "[urban]"
+        "[urban]",
+        "[female]"
       ],
       "answers": {
         "3": "The person interviewed usually drinks three cups of coffee per day: one right after waking up, one mid-morning, and one mid-afternoon.",
@@ -99,9 +99,9 @@
     }
   ],
   "segment_set": [
-    "[female]",
+    "[urban]",
     "[male]",
-    "[rural]",
-    "[urban]"
+    "[female]",
+    "[rural]"
   ]
 }
