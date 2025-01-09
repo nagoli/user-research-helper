@@ -3,6 +3,11 @@ AI Assistant for UX Research: A human-in-the-loop helper for user interview tran
 
 ![User research helper process](assets/process.png)
 
+
+https://colab.research.google.com/github/nagoli/user-research-helper/blob/main/user_research_helper.ipynb
+
+
+
 ## Quick Start
 1. `pip install -e .`
 2. Copy `.envExample` to `.env` and set `OPENAI_API_KEY` and `ASSEMBLYAI_API_KEY`.
