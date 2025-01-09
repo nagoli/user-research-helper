@@ -2,19 +2,83 @@
 AI Assistant for UX Research: A human-in-the-loop helper for user interview transcription and insight analysis.
 
 ![User research helper process](assets/process.png)
-
-
-https://colab.research.google.com/github/nagoli/user-research-helper/blob/main/user_research_helper.ipynb
-
-
-
 ## Quick Start
-1. `pip install -e .`
-2. Copy `.envExample` to `.env` and set `OPENAI_API_KEY` and `ASSEMBLYAI_API_KEY`.
-3. Prepare your `questions.txt`, `audios/` folder, and `config.json`.
-4. Run `python process_transcripts.py your/project/folder`.
-5. Edit `analysis/transcript_analysis_report.xlsx` to define segments.
-6. Run `python process_analysis.py your/project/folder`.
+
+To get started with **User Research Helper**, you will need the following:
+
+- **OpenAI API Key:** [Obtain one here](https://openai.com/api/)
+- **AssemblyAI API Key:** [Obtain one here](https://assemblyai.com)
+
+You have two options to use this tool:
+
+1. **Colab Option:** Use Google Colab without any local installations.
+2. **Python Option:** Run the tool locally on your machine.
+
+### Colab Option
+
+If you prefer to use this tool on Google Colab, follow these steps:
+
+1. **Requirements:**
+   - A Google account with access to Google Drive.
+
+2. **Prepare Your Data:**
+   - Organize your data as explained in the [Data Setup section](#1-data-setup) and add them to your Google Drive.
+
+3. **Open the Colab Notebook:**
+   - Access the [Colab Notebook](https://colab.research.google.com/github/nagoli/user-research-helper/blob/main/user_research_helper.ipynb).
+
+4. **Follow the Instructions:**
+   - Execute the notebook cells step-by-step as per the provided instructions to set up and run the tool.
+
+5. **Share Your Findings:**
+   - Use the generated Word document located at `analysis/results_with_quotes.docx` on your Google Drive to share your insights.   
+
+### Python Option
+
+If you are comfortable running Python on your local machine, follow these steps:
+
+1. **Clone the Repository:**
+    ```bash
+    git clone https://github.com/nagoli/user-research-helper.git
+    cd user-research-helper
+    ```
+
+2. **Install Dependencies:**
+    ```bash
+    pip install -e .
+    ```
+
+3. **Configure API Keys:**
+    - Copy the example environment file and set your API keys:
+      ```bash
+      cp .envExample .env
+      ```
+    - Open the `.env` file in a text editor and add your `OPENAI_API_KEY` and `ASSEMBLYAI_API_KEY`:
+      ```env
+      OPENAI_API_KEY=your-openai-api-key
+      ASSEMBLYAI_API_KEY=your-assemblyai-api-key
+      ```
+
+4. **Prepare Your Data:**
+    - Organize your data as explained in the [Data Setup section](#1-data-setup).
+
+5. **Process Transcripts:**
+    ```bash
+    python process_transcripts.py your/project/folder
+    ```
+
+6. **Define Segments:**
+    - Open and edit `analysis/transcript_analysis_report.xlsx` to define segments for each interview.
+
+7. **Process Analysis:**
+    ```bash
+    python process_analysis.py your/project/folder
+    ```
+
+8. **Share Your Findings:**
+   - Use the generated Word document located at `analysis/results_with_quotes.docx` to share your insights.
+
+
 
 
 ## Introduction
