@@ -11,7 +11,7 @@ To get started with **User Research Helper**, you will need the following:
 
 You have two options to use this tool:
 
-1. **Colab Option:** Use Google Colab without any local installations.
+1. **Colab Option:** Use Google Colab to run the tool without any local installations (Google account needed).
 2. **Python Option:** Run the tool locally on your machine.
 
 ### Colab Option
