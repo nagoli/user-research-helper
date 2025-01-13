@@ -1,6 +1,6 @@
 # user-research-helper
 
-AI Assistant for UX Research: A human-in-the-loop AI helper for user interview transcription and insight analysis.
+A human-in-the-loop AI assistant for user interview transcription and insight analysis.
 
 ---
 
