@@ -64,7 +64,7 @@ If you prefer to use this tool on Google Colab, follow these steps:
    - A Google account with access to Google Drive.
 
 2. **Prepare Your Data:**
-   - Organize your data as explained in the [Data Setup section](#1-data-setup) and add them to your Google Drive.
+   - Organize your data as explained in the [Data Setup section](#51-data-setup) and add them to your Google Drive.
 
 3. **Open the Colab Notebook:**
    - Access the [Colab Notebook](https://colab.research.google.com/github/nagoli/user-research-helper/blob/main/user_research_helper.ipynb).
