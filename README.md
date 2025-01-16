@@ -3,7 +3,6 @@
 A human-in-the-loop AI assistant for user interview transcription and insight analysis.
 
 ---
-![GitHub views](https://komarev.com/ghpvc/?username=user-research-helper&color=blue)
 
 ## 1. Introduction
 
