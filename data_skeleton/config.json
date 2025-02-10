@@ -29,6 +29,13 @@
     "do_result_analysis": true,
     "do_add_quotes": true,
 
+    "// files to ignore ": null,
+    "ignored_files": [
+        ".DS_Store",
+        ".gitkeep",
+        "Thumbs.db",
+        ".gitignore"
+    ],
 
     "// debug": null,
     "debug": {

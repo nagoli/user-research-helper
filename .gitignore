@@ -3,6 +3,8 @@
 *$py.class
 __pycache__/
 
+
+
 # Environments
 .env
 .venv
@@ -22,15 +24,11 @@ dmypy.json
 .pyre/
 .pytype/
 cython_debug/
-.idea/
+.idea/  
 *.code-search
 *.vscode 
 
-#audio files
-#*.mp3
-#*.m4a
-#*.wav
-#*.aac
+demo2/
 
 # Package management
 .pdm.toml
